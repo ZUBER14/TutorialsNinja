@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.tutorialsninja.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Automation Test cases(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.qa.testCases.TestForgetPassword">
+        <methods>
+          <include name="verify_forgetPassword_Without_providing_EmailAddress"/>
+          <include name="initlization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testCases.TestForgetPassword -->
+      <class name="com.tutorialsninja.qa.testCases.TestLogin">
+        <methods>
+          <include name="verify_login_Code_In_SourceCode_PasswordFiled"/>
+          <include name="initilization"/>
+          <include name="tearDown"/>
+          <include name="verify_login_afterLogin_browserBack"/>
+          <include name="verify_login_With_Valid_Credential_BrowserBack"/>
+          <include name="verify_login_MultipleTime_Unsuccessful_attempt"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testCases.TestLogin -->
+      <class name="com.tutorialsninja.qa.testCases.TestLogout">
+        <methods>
+          <include name="initilization"/>
+          <include name="verify_Logout_By_LoggingOut_And_BrowsingBack"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testCases.TestLogout -->
+      <class name="com.tutorialsninja.qa.testCases.TestRegister">
+        <methods>
+          <include name="verify_Registering_By_Invalid_Phone" invocation-numbers="0 1"/>
+          <include name="verify_Registering_Spaces_Trimmed"/>
+          <include name="verify_Registering_With_Space_Field"/>
+          <include name="tearDown"/>
+          <include name="initilization"/>
+          <include name="verify_Registering_Complexity_Password"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testCases.TestRegister -->
+    </classes>
+  </test> <!-- Automation Test cases(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite] -->

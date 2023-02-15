@@ -1,0 +1,5 @@
+com\tutorialsninja\qa\conftest\conftest.class
+com\tutorialsninja\qa\testCases\TestRegister.class
+com\tutorialsninja\qa\testCases\TestForgetPassword.class
+com\tutorialsninja\qa\testCases\TestLogout.class
+com\tutorialsninja\qa\testCases\TestLogin.class
