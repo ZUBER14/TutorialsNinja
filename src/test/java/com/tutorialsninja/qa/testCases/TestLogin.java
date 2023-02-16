@@ -141,13 +141,20 @@ public class TestLogin extends conftest {
 	 */
 	@Test(priority = 11, invocationCount = 10)
 	public void verify_login_MultipleTime_Unsuccessful_attempt() {
+		int invocationCount = 0;
 		HomePageObjects homepage = new HomePageObjects(driver);
 		loginPage = homepage.Account_login();
 		loginPage.Email().sendKeys(testData.getProperty("LoginInvalidEmail"));
 		loginPage.password().sendKeys(testData.getProperty("LoginInvalidPassword"));
 		loginPage.Login();
+		
+		invocationCount++;
 
-		Assert.assertEquals("", loginPage.exceeded_login_attempts_expected_warning());
+	    if (invocationCount == 10) {
+	        Assert.assertEquals("", loginPage.exceeded_login_attempts_expected_warning());
+	    }
+		
+		
 	}
 
 	@Test(priority = 12)

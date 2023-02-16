@@ -1,62 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="13" total="14" passed="0" failed="1" skipped="0">
+<testng-results ignored="13" total="23" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-16T02:11:14 IST" name="Default suite" finished-at="2023-02-16T02:11:27 IST" duration-ms="13519">
+  <suite started-at="2023-02-16T17:56:15 IST" name="Default suite" finished-at="2023-02-16T17:57:52 IST" duration-ms="96538">
     <groups>
     </groups>
-    <test started-at="2023-02-16T02:11:14 IST" name="Default test" finished-at="2023-02-16T02:11:27 IST" duration-ms="13519">
+    <test started-at="2023-02-16T17:56:15 IST" name="Default test" finished-at="2023-02-16T17:57:52 IST" duration-ms="96538">
       <class name="com.tutorialsninja.qa.testCases.TestLogin">
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T02:11:14 IST" name="initilization" finished-at="2023-02-16T02:11:24 IST" duration-ms="9939" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:15 IST" name="initilization" finished-at="2023-02-16T17:56:24 IST" duration-ms="8640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_afterLogin_browserBack()[pri:10, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T02:11:24 IST" name="verify_login_afterLogin_browserBack" finished-at="2023-02-16T02:11:27 IST" duration-ms="3156" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Account Logout expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Account Logout expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:24 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:56:26 IST" duration-ms="2130" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login_afterLogin_browserBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T02:11:27 IST" name="tearDown" finished-at="2023-02-16T02:11:27 IST" duration-ms="319" status="PASS">
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:26 IST" name="tearDown" finished-at="2023-02-16T17:56:27 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:27 IST" name="initilization" finished-at="2023-02-16T17:56:32 IST" duration-ms="5409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:32 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:56:34 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:34 IST" name="tearDown" finished-at="2023-02-16T17:56:34 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:34 IST" name="initilization" finished-at="2023-02-16T17:56:39 IST" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:39 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:56:42 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:42 IST" name="tearDown" finished-at="2023-02-16T17:56:43 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:43 IST" name="initilization" finished-at="2023-02-16T17:56:48 IST" duration-ms="5275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:48 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:56:51 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:51 IST" name="tearDown" finished-at="2023-02-16T17:56:51 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:51 IST" name="initilization" finished-at="2023-02-16T17:56:57 IST" duration-ms="5564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:57 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:56:59 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:59 IST" name="tearDown" finished-at="2023-02-16T17:56:59 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:56:59 IST" name="initilization" finished-at="2023-02-16T17:57:04 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:04 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:57:09 IST" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:09 IST" name="tearDown" finished-at="2023-02-16T17:57:09 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:09 IST" name="initilization" finished-at="2023-02-16T17:57:17 IST" duration-ms="8041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:17 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:57:20 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:20 IST" name="tearDown" finished-at="2023-02-16T17:57:20 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:20 IST" name="initilization" finished-at="2023-02-16T17:57:34 IST" duration-ms="13546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:34 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:57:36 IST" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:36 IST" name="tearDown" finished-at="2023-02-16T17:57:37 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:37 IST" name="initilization" finished-at="2023-02-16T17:57:42 IST" duration-ms="5333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:42 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:57:44 IST" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:44 IST" name="tearDown" finished-at="2023-02-16T17:57:44 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:44 IST" name="initilization" finished-at="2023-02-16T17:57:50 IST" duration-ms="5234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:50 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-16T17:57:51 IST" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@4f83df68]" started-at="2023-02-16T17:57:52 IST" name="tearDown" finished-at="2023-02-16T17:57:52 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
