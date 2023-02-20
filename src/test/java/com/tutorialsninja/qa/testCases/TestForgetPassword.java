@@ -26,19 +26,19 @@ public class TestForgetPassword extends conftest {
 	RegisterPageObjects registerPage;
 	ForgetPasswordPageObjects forgetPassword;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void initlization() {
 		driver = setup(config.getProperty("browserName"));
 		homepage = new HomePageObjects(driver);
 		loginPage = homepage.Account_login();
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.close();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = { "smoke" })
 	public void verify_forgetPassword_Withoutout_reset_but_IntitiateProcess() {
 		forgetPassword = loginPage.ForgetPassword();
 		forgetPassword.emailAddress().sendKeys(testData.getProperty("emailofWhichchagedpass"));
@@ -68,7 +68,5 @@ public class TestForgetPassword extends conftest {
 
 		Assert.assertTrue(false, forgetPassword.WarningEmailAddressField_Expected_Text());
 	}
-
-
 
 }

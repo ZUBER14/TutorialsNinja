@@ -20,17 +20,17 @@ public class TestRegister extends conftest {
 	RegisterPageObjects registerPage;
 	AccountConfirmPageObjects confirmPage;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void initilization() {
 		driver = setup(config.getProperty("browserName"));
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.close();
 	}
 
-	@Test(priority = 1, groups = { "smoke" })
+	@Test(priority = 1, groups={"smoke"})
 	public void verify_Registering_Mandatory_Field() {
 		HomePageObjects homepage = new HomePageObjects(driver);
 		registerPage = homepage.Account_register();
@@ -189,9 +189,13 @@ public class TestRegister extends conftest {
 		registerPage.privacy_policy().click();
 		registerPage.submit();
 
-		Assert.assertTrue(false);
-		Assert.assertEquals(registerPage.telephone_actual_WarningMessage(),
-				registerPage.Telephone_exepected_WarningMessage());
+		
+		if (BaseClass.getTitle(driver).equals("Register Account")){
+			Assert.assertEquals(registerPage.telephone_actual_WarningMessage(),
+					registerPage.Telephone_exepected_WarningMessage());
+		}else {
+			Assert.assertTrue(false);
+		}
 	}
 
 	@DataProvider()

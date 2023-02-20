@@ -21,19 +21,19 @@ public class TestLogout extends conftest {
 	AccountPageObjects accountPage;
 	LogoutPageObjects logoutPage;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void initilization() {
 		driver = setup(config.getProperty("browserName"));
 		homepage = new HomePageObjects(driver);
 		loginPage = homepage.Account_login();
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.close();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups= {"smoke"})
 	public void verify_Logout_By_LoggingOut_From_MyAccount_Dropdown() {
 		accountPage = loginPage.LoginToAccount(config.getProperty("validEmail"), config.getProperty("validPassword"));
 		accountPage.MyAccountDropdown_LoginPage();

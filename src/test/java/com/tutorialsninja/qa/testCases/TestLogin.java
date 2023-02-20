@@ -25,17 +25,17 @@ public class TestLogin extends conftest {
 	PasswordPageObjects changePassword;
 	RegisterPageObjects registerPage;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void initilization() {
 		driver = setup(config.getProperty("browserName"));
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		driver.close();
 	}
 
-	@Test(priority = 1, groups = { "smoke" })
+	@Test(priority = 1,groups={"smoke"})
 	public void verify_login_With_Valid_Credential() {
 		HomePageObjects homepage = new HomePageObjects(driver);
 		loginPage = homepage.Account_login();

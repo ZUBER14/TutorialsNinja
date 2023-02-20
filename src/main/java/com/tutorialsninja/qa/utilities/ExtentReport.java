@@ -34,10 +34,11 @@ public class ExtentReport {
 		}
 		
 		
-		extentReport.setSystemInfo("Operating System", "os.name");
-		extentReport.setSystemInfo("User Name", "user.name");
-		extentReport.setSystemInfo("Java Version", "version.java");
+		extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
+		extentReport.setSystemInfo("Username",System.getProperty("user.name"));
+		extentReport.setSystemInfo("Java Version",System.getProperty("java.version"));
 		extentReport.setSystemInfo("URL", config.getProperty("url"));	
+		extentReport.setSystemInfo("Browser Name",config.getProperty("browserName"));
 		return extentReport;
 	}	
 
