@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Automation Test cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/20/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>40/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 16 02:27:39 IST 2023</td>
+<td>Started on:</td><td>Mon Feb 20 11:54:59 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>468 seconds (468139 ms)</td>
+<tr><td>Total time:</td><td>462 seconds (462297 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack()'><b>verify_Logout_By_LoggingOut_And_BrowsingBack</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
-<td><div><pre>java.lang.AssertionError: expected [Account Logout] but found [My Account]
-	at com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack(TestLogout.java:64)
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone()'><b>verify_Registering_By_Invalid_Phone</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: abcde</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace818507433", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace818507433'><pre>java.lang.AssertionError: expected [Account Logout] but found [My Account]
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace760125918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace760125918'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack(TestLogout.java:64)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -123,18 +121,18 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential_BrowserBack()'><b>verify_login_With_Valid_Credential_BrowserBack</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;well&apos;])[2]/h2&quot;}
-  (Session info: MicrosoftEdge=110.0.1587.41)
+  (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f5c596ed2c0c6eb253cba202096dabea, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.41, ms:edgeOptions: {debuggerAddress: localhost:56803}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56803/devtoo..., se:cdpVersion: 110.0.1587.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f5c596ed2c0c6eb253cba202096dabea
+Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84035b78aa2951069176783dab933dc3
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -152,16 +150,16 @@ Session ID: f5c596ed2c0c6eb253cba202096dabea
 	at com.tutorialsninja.qa.pageObjects.LoginPageObjects.returningCustomer_actual_text(LoginPageObjects.java:105)
 	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential_BrowserBack(TestLogin.java:114)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1316049331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1316049331'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;well&apos;])[2]/h2&quot;}
-  (Session info: MicrosoftEdge=110.0.1587.41)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1763335226", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1763335226'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;well&apos;])[2]/h2&quot;}
+  (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [f5c596ed2c0c6eb253cba202096dabea, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.41, ms:edgeOptions: {debuggerAddress: localhost:56803}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56803/devtoo..., se:cdpVersion: 110.0.1587.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f5c596ed2c0c6eb253cba202096dabea
+Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84035b78aa2951069176783dab933dc3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -217,19 +215,19 @@ Session ID: f5c596ed2c0c6eb253cba202096dabea
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>11</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone()'><b>verify_Registering_By_Invalid_Phone</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: 111</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:192)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace889260651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace889260651'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace110687402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace110687402'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:192)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -263,312 +261,19 @@ Session ID: f5c596ed2c0c6eb253cba202096dabea
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
-<td>2</td>
+<td>3</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1749169032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1749169032'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed()'><b>verify_Registering_Spaces_Trimmed</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td><div><pre>java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed(TestRegister.java:261)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1958168955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1958168955'><pre>java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failEquals(Assert.java:1417)
-	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
-	at org.testng.Assert.assertNotEquals(Assert.java:2033)
-	at org.testng.Assert.assertNotEquals(Assert.java:2055)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed(TestRegister.java:261)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace237410024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace237410024'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831965951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1831965951'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace408023455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace408023455'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1214336947", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1214336947'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password()'><b>verify_Registering_Complexity_Password</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-password&apos;]/following::div[1]&quot;}
-  (Session info: MicrosoftEdge=110.0.1587.41)
+  (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1c452d371543aec88935f1aad1256c07, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.41, ms:edgeOptions: {debuggerAddress: localhost:56271}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56271/devtoo..., se:cdpVersion: 110.0.1587.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1c452d371543aec88935f1aad1256c07
+Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b24d98a25becc6b0937e1e64ce55d494
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -584,18 +289,18 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
 	at com.tutorialsninja.qa.pageObjects.RegisterPageObjects.password_actual_WarningMessage(RegisterPageObjects.java:88)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:243)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:247)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace900682460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace900682460'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-password&apos;]/following::div[1]&quot;}
-  (Session info: MicrosoftEdge=110.0.1587.41)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace159116975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace159116975'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-password&apos;]/following::div[1]&quot;}
+  (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1c452d371543aec88935f1aad1256c07, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.41, ms:edgeOptions: {debuggerAddress: localhost:56271}, msedge: {msedgedriverVersion: 110.0.1587.41 (dec2c0803210..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56271/devtoo..., se:cdpVersion: 110.0.1587.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1c452d371543aec88935f1aad1256c07
+Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b24d98a25becc6b0937e1e64ce55d494
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -616,7 +321,7 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
 	at com.tutorialsninja.qa.pageObjects.RegisterPageObjects.password_actual_WarningMessage(RegisterPageObjects.java:88)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:243)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:247)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -653,17 +358,16 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 <td>12</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone()'><b>verify_Registering_By_Invalid_Phone</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: abcde</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:192)
+<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress()'><b>verify_forgetPassword_Without_providing_EmailAddress</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
+<td><div><pre>java.lang.AssertionError: E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]
+	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1884568750", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1884568750'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1014694927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1014694927'><pre>java.lang.AssertionError: E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:192)
+	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -697,214 +401,21 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1872453377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1872453377'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack()'><b>verify_login_afterLogin_browserBack</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: Account Logout expected [true] but found [false]
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1489071869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1489071869'><pre>java.lang.AssertionError: Account Logout expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340744662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1340744662'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace275903405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace275903405'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>0</td>
+<td>com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled()'><b>verify_login_Code_In_SourceCode_PasswordFiled</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td><div><pre>java.lang.AssertionError: did not expect [xyzabc123   ] but found [xyzabc123   ]
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled(TestLogin.java:174)
+	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled(TestLogin.java:181)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1977641180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1977641180'><pre>java.lang.AssertionError: did not expect [xyzabc123   ] but found [xyzabc123   ]
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394581777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394581777'><pre>java.lang.AssertionError: did not expect [xyzabc123   ] but found [xyzabc123   ]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failEquals(Assert.java:1417)
 	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
 	at org.testng.Assert.assertNotEquals(Assert.java:2033)
 	at org.testng.Assert.assertNotEquals(Assert.java:2055)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled(TestLogin.java:174)
+	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled(TestLogin.java:181)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -939,70 +450,18 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack()'><b>verify_login_afterLogin_browserBack</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td><div><pre>java.lang.AssertionError: Account Logout expected [true] but found [false]
+	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1525027227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1525027227'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace304207367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace304207367'><pre>java.lang.AssertionError: Account Logout expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field()'><b>verify_Registering_With_Space_Field</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td><div><pre>java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field(TestRegister.java:222)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace802435370", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace802435370'><pre>java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field(TestRegister.java:222)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1037,67 +496,21 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress()'><b>verify_forgetPassword_Without_providing_EmailAddress</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
-<td><div><pre>java.lang.AssertionError: E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]
-	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
+<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack()'><b>verify_Logout_By_LoggingOut_And_BrowsingBack</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
+<td><div><pre>java.lang.AssertionError: expected [Account Logout] but found [My Account]
+	at com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack(TestLogout.java:64)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace937220674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace937220674'><pre>java.lang.AssertionError: E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestForgetPassword@436813f3</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1416013849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1416013849'><pre>java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found []
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208427878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208427878'><pre>java.lang.AssertionError: expected [Account Logout] but found [My Account]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt(TestLogin.java:150)
+	at com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack(TestLogout.java:64)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1132,7 +545,104 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field()'><b>verify_Registering_With_Space_Field</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td><div><pre>java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field(TestRegister.java:226)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1261661384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1261661384'><pre>java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field(TestRegister.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>3</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed()'><b>verify_Registering_Spaces_Trimmed</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td><div><pre>java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed(TestRegister.java:265)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace780764854", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace780764854'><pre>java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed(TestRegister.java:265)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>3</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -1143,152 +653,202 @@ Session ID: 1c452d371543aec88935f1aad1256c07
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password()'><b>verify_login_after_Changing_Password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>5</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_userName_invalid_password()'><b>verify_login_With_Valid_userName_invalid_password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Copying_TEXT_PasswordFiled()'><b>verify_login_Copying_TEXT_PasswordFiled</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Forgetten_Password()'><b>verify_login_Forgetten_Password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
 <td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_With_nonRegistered_Account()'><b>verify_forgetPassword_With_nonRegistered_Account</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
-<td></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestForgetPassword@436813f3</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_BY_Providing_All_Fileds()'><b>verify_Registering_BY_Providing_All_Fileds</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td></td>
-<td>3</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password_and_Changing_toOriginal_password()'><b>verify_login_after_Changing_Password_and_Changing_toOriginal_password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>5</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_PrivacyPolicy_isSelected()'><b>verify_Registering_PrivacyPolicy_isSelected</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td></td>
-<td>0</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_enterPassword_WithoutConfirmPassword()'><b>verify_Registering_enterPassword_WithoutConfirmPassword</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
 <td></td>
 <td>3</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_PrivacyPolicy_Without_Selecting()'><b>verify_Registering_PrivacyPolicy_Without_Selecting</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
-<td>7</td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Different_Pass_con_pass()'><b>verify_Registering_By_Different_Pass_con_pass</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>4</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_From_LogoutOption_OnPage()'><b>verify_Logout_By_LoggingOut_From_LogoutOption_OnPage</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Without_Credentials()'><b>verify_login_Without_Credentials</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Withoutout_reset_but_IntitiateProcess()'><b>verify_forgetPassword_Withoutout_reset_but_IntitiateProcess</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestForgetPassword@436813f3</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_InValid_Credential()'><b>verify_login_With_InValid_Credential</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Email()'><b>verify_Registering_By_Invalid_Email</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: test@, 12345</td>
 <td></td>
 <td>2</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Email()'><b>verify_Registering_By_Invalid_Email</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: test@gmail., 12345</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential()'><b>verify_login_With_Valid_Credential</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
 <td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Newsletter_NO()'><b>verify_Registering_Newsletter_NO</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td></td>
-<td>3</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Email()'><b>verify_Registering_By_Invalid_Email</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: test, 12345</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Notification_BY_NotProviding_All_Fileds_BySubmiting()'><b>verify_Notification_BY_NotProviding_All_Fileds_BySubmiting</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td></td>
-<td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()'><b>verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown()'><b>verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
-<td></td>
-<td>10</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_AfterLogout_FromOneAccount_AnotherAccount()'><b>verify_Logout_AfterLogout_FromOneAccount_AnotherAccount</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column()'><b>verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
 <td></td>
 <td>10</td>
-<td>com.tutorialsninja.qa.testCases.TestLogout@8f4ea7c</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Newsletter_YES()'><b>verify_Registering_Newsletter_YES</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Copying_TEXT_PasswordFiled()'><b>verify_login_Copying_TEXT_PasswordFiled</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
-<td>3</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential()'><b>verify_login_With_Valid_Credential</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_password_invalid_userName()'><b>verify_login_With_Valid_password_invalid_userName</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
-<td></td>
-<td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
-<tr>
-<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Different_Pass_con_pass()'><b>verify_Registering_By_Different_Pass_con_pass</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
-<td></td>
-<td>3</td>
-<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Existing_Account()'><b>verify_Registering_By_Existing_Account</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
 <td></td>
 <td>3</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
 <tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_PrivacyPolicy_isSelected()'><b>verify_Registering_PrivacyPolicy_isSelected</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_BY_Providing_All_Fileds()'><b>verify_Registering_BY_Providing_All_Fileds</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>3</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password()'><b>verify_login_after_Changing_Password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>5</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_PrivacyPolicy_Without_Selecting()'><b>verify_Registering_PrivacyPolicy_Without_Selecting</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password_and_Changing_toOriginal_password()'><b>verify_login_after_Changing_Password_and_Changing_toOriginal_password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>5</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Newsletter_YES()'><b>verify_Registering_Newsletter_YES</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_From_LogoutOption_OnPage()'><b>verify_Logout_By_LoggingOut_From_LogoutOption_OnPage</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Notification_BY_NotProviding_All_Fileds_BySubmiting()'><b>verify_Notification_BY_NotProviding_All_Fileds_BySubmiting</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_AfterLogout_FromOneAccount_AnotherAccount()'><b>verify_Logout_AfterLogout_FromOneAccount_AnotherAccount</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Withoutout_reset_but_IntitiateProcess()'><b>verify_forgetPassword_Withoutout_reset_but_IntitiateProcess</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_InValid_Credential()'><b>verify_login_With_InValid_Credential</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_password_invalid_userName()'><b>verify_login_With_Valid_password_invalid_userName</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown()'><b>verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
+<td></td>
+<td>10</td>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
+<tr>
 <td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_able_to_navigate_to_otherPages()'><b>verify_login_able_to_navigate_to_otherPages</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
 <td>2</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
-<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Forgetten_Password()'><b>verify_login_Forgetten_Password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
 <td></td>
 <td>1</td>
-<td>com.tutorialsninja.qa.testCases.TestLogin@223d2c72</td></tr>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_Without_Credentials()'><b>verify_login_Without_Credentials</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_With_nonRegistered_Account()'><b>verify_forgetPassword_With_nonRegistered_Account</b><br>Test class: com.tutorialsninja.qa.testCases.TestForgetPassword</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Email()'><b>verify_Registering_By_Invalid_Email</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: test@gmail., 12345</td>
+<td></td>
+<td>2</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()'><b>verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogout</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogout@35cabb2a</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_MultipleTime_Unsuccessful_attempt()'><b>verify_login_MultipleTime_Unsuccessful_attempt</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_userName_invalid_password()'><b>verify_login_With_Valid_userName_invalid_password</b><br>Test class: com.tutorialsninja.qa.testCases.TestLogin</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.qa.testCases.TestLogin@3a93b025</td></tr>
 <tr>
 <td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Mandatory_Field()'><b>verify_Registering_Mandatory_Field</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
+<td></td>
+<td>3</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Email()'><b>verify_Registering_By_Invalid_Email</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister<br>Parameters: test, 12345</td>
+<td></td>
+<td>3</td>
+<td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>
+<tr>
+<td title='com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Newsletter_NO()'><b>verify_Registering_Newsletter_NO</b><br>Test class: com.tutorialsninja.qa.testCases.TestRegister</td>
 <td></td>
 <td>3</td>
 <td>com.tutorialsninja.qa.testCases.TestRegister@6356695f</td></tr>

@@ -20,7 +20,6 @@
           <include name="tearDown"/>
           <include name="verify_login_afterLogin_browserBack"/>
           <include name="verify_login_With_Valid_Credential_BrowserBack"/>
-          <include name="verify_login_MultipleTime_Unsuccessful_attempt"/>
         </methods>
       </class> <!-- com.tutorialsninja.qa.testCases.TestLogin -->
       <class name="com.tutorialsninja.qa.testCases.TestLogout">
