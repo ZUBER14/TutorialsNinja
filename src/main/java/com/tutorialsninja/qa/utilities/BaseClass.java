@@ -250,4 +250,9 @@ public class BaseClass {
 		}
 		action.build().perform();
 	}
+	
+	public static void navigateToUrl(WebDriver driver ,String link) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get(link);
+	}
 }
