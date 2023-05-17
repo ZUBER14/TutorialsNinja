@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Tutorialsninja</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">20/02/2023 11:54:59</span></a>
+<a href="#"><span class="badge badge-primary">16/05/2023 06:45:51</span></a>
 </li>
 </ul>
 </div>
@@ -71,8 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -80,25 +79,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="skip" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verify_Registering_Mandatory_Field</p>
             <p class="text-sm">
-              <span>11:55:12 AM</span> / <span>00:00:03:038</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:46:06 PM</span> / <span>00:00:00:034</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_Registering_Mandatory_Field</h5>
-<span class='badge badge-success'>02.20.2023 11:55:12 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:55:15 AM</span>
-<span class='badge badge-default'>00:00:03:038</span>
+<h5 class="test-status text-skip">verify_Registering_Mandatory_Field</h5>
+<span class='badge badge-success'>05.16.2023 6:46:06 PM</span>
+<span class='badge badge-danger'>05.16.2023 6:46:06 PM</span>
+<span class='badge badge-default'>00:00:00:034</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -110,14 +109,69 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:12 AM</td>
+        <td>6:46:06 PM</td>
         <td>
           verify_Registering_Mandatory_Field
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:55:15 AM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:46:06 PM</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52250/devtools/browser/c74cd0b1-a18d-4612-93a7-3844a64582ff
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.tutorialsninja.qa.conftest.conftest.setup(conftest.java:43)
+	at com.tutorialsninja.qa.testCases.TestRegister.initilization(TestRegister.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:46:06 PM</td>
         <td>
           verify_Registering_Mandatory_Field
         </td>
@@ -127,25 +181,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="skip" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verify_Registering_BY_Providing_All_Fileds</p>
+            <p class="name">verify_login_With_Valid_Credential</p>
             <p class="text-sm">
-              <span>11:55:21 AM</span> / <span>00:00:03:074</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:46:09 PM</span> / <span>00:00:00:003</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_Registering_BY_Providing_All_Fileds</h5>
-<span class='badge badge-success'>02.20.2023 11:55:21 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:55:25 AM</span>
-<span class='badge badge-default'>00:00:03:074</span>
+<h5 class="test-status text-skip">verify_login_With_Valid_Credential</h5>
+<span class='badge badge-success'>05.16.2023 6:46:09 PM</span>
+<span class='badge badge-danger'>05.16.2023 6:46:09 PM</span>
+<span class='badge badge-default'>00:00:00:003</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -157,16 +211,71 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:21 AM</td>
+        <td>6:46:09 PM</td>
         <td>
-          verify_Registering_BY_Providing_All_Fileds
+          verify_login_With_Valid_Credential
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:55:25 AM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:46:09 PM</td>
         <td>
-          verify_Registering_BY_Providing_All_Fileds
+          <textarea readonly class="code-block">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52265/devtools/browser/4061c9c5-0213-4129-850e-ae46c1f1de70
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.tutorialsninja.qa.conftest.conftest.setup(conftest.java:43)
+	at com.tutorialsninja.qa.testCases.TestLogin.initilization(TestLogin.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:46:09 PM</td>
+        <td>
+          verify_login_With_Valid_Credential
         </td>
       </tr>
   </tbody>
@@ -174,25 +283,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="skip" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verify_Notification_BY_NotProviding_All_Fileds_BySubmiting</p>
+            <p class="name">verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</p>
             <p class="text-sm">
-              <span>11:55:31 AM</span> / <span>00:00:02:021</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:46:20 PM</span> / <span>00:00:00:003</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_Notification_BY_NotProviding_All_Fileds_BySubmiting</h5>
-<span class='badge badge-success'>02.20.2023 11:55:31 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:55:33 AM</span>
-<span class='badge badge-default'>00:00:02:021</span>
+<h5 class="test-status text-skip">verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</h5>
+<span class='badge badge-success'>05.16.2023 6:46:20 PM</span>
+<span class='badge badge-danger'>05.16.2023 6:46:20 PM</span>
+<span class='badge badge-default'>00:00:00:003</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -204,16 +313,78 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:31 AM</td>
+        <td>6:46:20 PM</td>
         <td>
-          verify_Notification_BY_NotProviding_All_Fileds_BySubmiting
+          verify_Logout_By_LoggingOut_From_MyAccount_Dropdown
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:55:33 AM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:46:20 PM</td>
         <td>
-          verify_Notification_BY_NotProviding_All_Fileds_BySubmiting
+          <textarea readonly class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=113.0.5672.93) 
+Host info: host: 'DESKTOP-9DH3JAO', ip: '192.168.1.6'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:146)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.tutorialsninja.qa.conftest.conftest.setup(conftest.java:43)
+	at com.tutorialsninja.qa.testCases.TestLogout.initilization(TestLogout.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:46:20 PM</td>
+        <td>
+          verify_Logout_By_LoggingOut_From_MyAccount_Dropdown
         </td>
       </tr>
   </tbody>
@@ -221,25 +392,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="4"
+        <li class="test-item"  status="skip" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">verify_Registering_Newsletter_NO</p>
+            <p class="name">verify_forgetPassword_User_able_to_restore_password</p>
             <p class="text-sm">
-              <span>11:55:38 AM</span> / <span>00:00:03:235</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:46:24 PM</span> / <span>00:00:00:004</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verify_Registering_Newsletter_NO</h5>
-<span class='badge badge-success'>02.20.2023 11:55:38 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:55:42 AM</span>
-<span class='badge badge-default'>00:00:03:235</span>
+<h5 class="test-status text-skip">verify_forgetPassword_User_able_to_restore_password</h5>
+<span class='badge badge-success'>05.16.2023 6:46:24 PM</span>
+<span class='badge badge-danger'>05.16.2023 6:46:24 PM</span>
+<span class='badge badge-default'>00:00:00:004</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -251,693 +422,40 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:38 AM</td>
+        <td>6:46:24 PM</td>
         <td>
-          verify_Registering_Newsletter_NO
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:55:42 AM</td>
-        <td>
-          verify_Registering_Newsletter_NO
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_Newsletter_YES</p>
-            <p class="text-sm">
-              <span>11:55:50 AM</span> / <span>00:00:02:987</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_Newsletter_YES</h5>
-<span class='badge badge-success'>02.20.2023 11:55:50 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:55:53 AM</span>
-<span class='badge badge-default'>00:00:02:987</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:50 AM</td>
-        <td>
-          verify_Registering_Newsletter_YES
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:55:53 AM</td>
-        <td>
-          verify_Registering_Newsletter_YES
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Different_Pass_con_pass</p>
-            <p class="text-sm">
-              <span>11:55:59 AM</span> / <span>00:00:04:705</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_By_Different_Pass_con_pass</h5>
-<span class='badge badge-success'>02.20.2023 11:55:59 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:04 AM</span>
-<span class='badge badge-default'>00:00:04:705</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:55:59 AM</td>
-        <td>
-          verify_Registering_By_Different_Pass_con_pass
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:56:04 AM</td>
-        <td>
-          verify_Registering_By_Different_Pass_con_pass
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Existing_Account</p>
-            <p class="text-sm">
-              <span>11:56:09 AM</span> / <span>00:00:03:986</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_By_Existing_Account</h5>
-<span class='badge badge-success'>02.20.2023 11:56:09 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:13 AM</span>
-<span class='badge badge-default'>00:00:03:986</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:09 AM</td>
-        <td>
-          verify_Registering_By_Existing_Account
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:56:13 AM</td>
-        <td>
-          verify_Registering_By_Existing_Account
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Invalid_Email</p>
-            <p class="text-sm">
-              <span>11:56:21 AM</span> / <span>00:00:03:798</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_By_Invalid_Email</h5>
-<span class='badge badge-success'>02.20.2023 11:56:21 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:25 AM</span>
-<span class='badge badge-default'>00:00:03:798</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:21 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:56:25 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="9"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Invalid_Email</p>
-            <p class="text-sm">
-              <span>11:56:32 AM</span> / <span>00:00:02:308</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_By_Invalid_Email</h5>
-<span class='badge badge-success'>02.20.2023 11:56:32 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:35 AM</span>
-<span class='badge badge-default'>00:00:02:308</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:32 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:56:35 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Invalid_Email</p>
-            <p class="text-sm">
-              <span>11:56:41 AM</span> / <span>00:00:02:386</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_By_Invalid_Email</h5>
-<span class='badge badge-success'>02.20.2023 11:56:41 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:43 AM</span>
-<span class='badge badge-default'>00:00:02:386</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:41 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:56:43 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Email
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="11"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Invalid_Phone</p>
-            <p class="text-sm">
-              <span>11:56:49 AM</span> / <span>00:00:03:494</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Registering_By_Invalid_Phone</h5>
-<span class='badge badge-success'>02.20.2023 11:56:49 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:56:52 AM</span>
-<span class='badge badge-default'>00:00:03:494</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:49 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Phone
+          verify_forgetPassword_User_able_to_restore_password
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:52 AM</td>
+        <td>6:46:24 PM</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:56:52 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Phone
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="12"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_By_Invalid_Phone</p>
-            <p class="text-sm">
-              <span>11:56:58 AM</span> / <span>00:00:02:665</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Registering_By_Invalid_Phone</h5>
-<span class='badge badge-success'>02.20.2023 11:56:58 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:00 AM</span>
-<span class='badge badge-default'>00:00:02:665</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_By_Invalid_Phone.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:56:58 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Phone
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:00 AM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_By_Invalid_Phone(TestRegister.java:197)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:57:00 AM</td>
-        <td>
-          verify_Registering_By_Invalid_Phone
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="13"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_With_Space_Field</p>
-            <p class="text-sm">
-              <span>11:57:06 AM</span> / <span>00:00:03:167</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Registering_With_Space_Field</h5>
-<span class='badge badge-success'>02.20.2023 11:57:06 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:09 AM</span>
-<span class='badge badge-default'>00:00:03:167</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_With_Space_Field.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_With_Space_Field.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_With_Space_Field.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_With_Space_Field.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:06 AM</td>
-        <td>
-          verify_Registering_With_Space_Field
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:09 AM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_With_Space_Field(TestRegister.java:226)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:57:09 AM</td>
-        <td>
-          verify_Registering_With_Space_Field
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="14"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_Complexity_Password</p>
-            <p class="text-sm">
-              <span>11:57:14 AM</span> / <span>00:00:12:643</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Registering_Complexity_Password</h5>
-<span class='badge badge-success'>02.20.2023 11:57:14 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:27 AM</span>
-<span class='badge badge-default'>00:00:12:643</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Complexity_Password.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Complexity_Password.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Complexity_Password.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Complexity_Password.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:14 AM</td>
-        <td>
-          verify_Registering_Complexity_Password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:27 AM</td>
-        <td>
-          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-password']/following::div[1]"}
-  (Session info: MicrosoftEdge=110.0.1587.50)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+          <textarea readonly class="code-block">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52318/devtools/browser/2d20bd9c-61c4-4475-b825-6d2538ce40b0
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b24d98a25becc6b0937e1e64ce55d494
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
-	at com.tutorialsninja.qa.pageObjects.RegisterPageObjects.password_actual_WarningMessage(RegisterPageObjects.java:88)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:247)
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:49)
+	at com.tutorialsninja.qa.conftest.conftest.setup(conftest.java:43)
+	at com.tutorialsninja.qa.testCases.TestForgetPassword.initlization(TestForgetPassword.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
@@ -957,2064 +475,18 @@ Session ID: b24d98a25becc6b0937e1e64ce55d494
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 	at org.testng.TestNG.runSuites(TestNG.java:1099)
 	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </textarea>
           
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:57:27 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>6:46:24 PM</td>
         <td>
-          verify_Registering_Complexity_Password
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="15"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_Spaces_Trimmed</p>
-            <p class="text-sm">
-              <span>11:57:34 AM</span> / <span>00:00:03:511</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Registering_Spaces_Trimmed</h5>
-<span class='badge badge-success'>02.20.2023 11:57:34 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:38 AM</span>
-<span class='badge badge-default'>00:00:03:511</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Spaces_Trimmed.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Spaces_Trimmed.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Spaces_Trimmed.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Registering_Spaces_Trimmed.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:34 AM</td>
-        <td>
-          verify_Registering_Spaces_Trimmed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:38 AM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failEquals(Assert.java:1417)
-	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
-	at org.testng.Assert.assertNotEquals(Assert.java:2033)
-	at org.testng.Assert.assertNotEquals(Assert.java:2055)
-	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Spaces_Trimmed(TestRegister.java:265)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:57:38 AM</td>
-        <td>
-          verify_Registering_Spaces_Trimmed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="16"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_PrivacyPolicy_isSelected</p>
-            <p class="text-sm">
-              <span>11:57:43 AM</span> / <span>00:00:01:264</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_PrivacyPolicy_isSelected</h5>
-<span class='badge badge-success'>02.20.2023 11:57:43 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:44 AM</span>
-<span class='badge badge-default'>00:00:01:264</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:43 AM</td>
-        <td>
-          verify_Registering_PrivacyPolicy_isSelected
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:57:44 AM</td>
-        <td>
-          verify_Registering_PrivacyPolicy_isSelected
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="17"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_PrivacyPolicy_Without_Selecting</p>
-            <p class="text-sm">
-              <span>11:57:51 AM</span> / <span>00:00:02:556</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_PrivacyPolicy_Without_Selecting</h5>
-<span class='badge badge-success'>02.20.2023 11:57:51 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:57:54 AM</span>
-<span class='badge badge-default'>00:00:02:556</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:51 AM</td>
-        <td>
-          verify_Registering_PrivacyPolicy_Without_Selecting
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:57:54 AM</td>
-        <td>
-          verify_Registering_PrivacyPolicy_Without_Selecting
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="18"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Registering_enterPassword_WithoutConfirmPassword</p>
-            <p class="text-sm">
-              <span>11:57:59 AM</span> / <span>00:00:03:155</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Registering_enterPassword_WithoutConfirmPassword</h5>
-<span class='badge badge-success'>02.20.2023 11:57:59 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:02 AM</span>
-<span class='badge badge-default'>00:00:03:155</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:57:59 AM</td>
-        <td>
-          verify_Registering_enterPassword_WithoutConfirmPassword
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:02 AM</td>
-        <td>
-          verify_Registering_enterPassword_WithoutConfirmPassword
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="19"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_With_Valid_Credential</p>
-            <p class="text-sm">
-              <span>11:58:08 AM</span> / <span>00:00:02:089</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_With_Valid_Credential</h5>
-<span class='badge badge-success'>02.20.2023 11:58:08 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:10 AM</span>
-<span class='badge badge-default'>00:00:02:089</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:08 AM</td>
-        <td>
-          verify_login_With_Valid_Credential
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:10 AM</td>
-        <td>
-          verify_login_With_Valid_Credential
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="20"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_With_InValid_Credential</p>
-            <p class="text-sm">
-              <span>11:58:15 AM</span> / <span>00:00:01:735</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_With_InValid_Credential</h5>
-<span class='badge badge-success'>02.20.2023 11:58:15 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:17 AM</span>
-<span class='badge badge-default'>00:00:01:735</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:15 AM</td>
-        <td>
-          verify_login_With_InValid_Credential
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:17 AM</td>
-        <td>
-          verify_login_With_InValid_Credential
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="21"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_With_Valid_password_invalid_userName</p>
-            <p class="text-sm">
-              <span>11:58:29 AM</span> / <span>00:00:01:762</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_With_Valid_password_invalid_userName</h5>
-<span class='badge badge-success'>02.20.2023 11:58:29 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:30 AM</span>
-<span class='badge badge-default'>00:00:01:762</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:29 AM</td>
-        <td>
-          verify_login_With_Valid_password_invalid_userName
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:30 AM</td>
-        <td>
-          verify_login_With_Valid_password_invalid_userName
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="22"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_With_Valid_userName_invalid_password</p>
-            <p class="text-sm">
-              <span>11:58:36 AM</span> / <span>00:00:01:769</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_With_Valid_userName_invalid_password</h5>
-<span class='badge badge-success'>02.20.2023 11:58:36 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:37 AM</span>
-<span class='badge badge-default'>00:00:01:769</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:36 AM</td>
-        <td>
-          verify_login_With_Valid_userName_invalid_password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:37 AM</td>
-        <td>
-          verify_login_With_Valid_userName_invalid_password
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="23"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_Without_Credentials</p>
-            <p class="text-sm">
-              <span>11:58:43 AM</span> / <span>00:00:01:522</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_Without_Credentials</h5>
-<span class='badge badge-success'>02.20.2023 11:58:43 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:44 AM</span>
-<span class='badge badge-default'>00:00:01:522</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:43 AM</td>
-        <td>
-          verify_login_Without_Credentials
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:44 AM</td>
-        <td>
-          verify_login_Without_Credentials
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="24"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_Forgetten_Password</p>
-            <p class="text-sm">
-              <span>11:58:50 AM</span> / <span>00:00:01:229</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_Forgetten_Password</h5>
-<span class='badge badge-success'>02.20.2023 11:58:50 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:58:51 AM</span>
-<span class='badge badge-default'>00:00:01:229</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:50 AM</td>
-        <td>
-          verify_login_Forgetten_Password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:58:51 AM</td>
-        <td>
-          verify_login_Forgetten_Password
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="25"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_With_Valid_Credential_BrowserBack</p>
-            <p class="text-sm">
-              <span>11:58:56 AM</span> / <span>00:00:12:100</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_login_With_Valid_Credential_BrowserBack</h5>
-<span class='badge badge-success'>02.20.2023 11:58:56 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:08 AM</span>
-<span class='badge badge-default'>00:00:12:100</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_With_Valid_Credential_BrowserBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_With_Valid_Credential_BrowserBack.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_With_Valid_Credential_BrowserBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_With_Valid_Credential_BrowserBack.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:58:56 AM</td>
-        <td>
-          verify_login_With_Valid_Credential_BrowserBack
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:08 AM</td>
-        <td>
-          <textarea readonly class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='well'])[2]/h2"}
-  (Session info: MicrosoftEdge=110.0.1587.50)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 84035b78aa2951069176783dab933dc3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
-	at com.tutorialsninja.qa.pageObjects.LoginPageObjects.returningCustomer_actual_text(LoginPageObjects.java:105)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential_BrowserBack(TestLogin.java:114)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:59:08 AM</td>
-        <td>
-          verify_login_With_Valid_Credential_BrowserBack
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="26"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_afterLogin_browserBack</p>
-            <p class="text-sm">
-              <span>11:59:13 AM</span> / <span>00:00:02:745</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_login_afterLogin_browserBack</h5>
-<span class='badge badge-success'>02.20.2023 11:59:13 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:16 AM</span>
-<span class='badge badge-default'>00:00:02:745</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_afterLogin_browserBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_afterLogin_browserBack.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_afterLogin_browserBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_afterLogin_browserBack.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:13 AM</td>
-        <td>
-          verify_login_afterLogin_browserBack
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:16 AM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: Account Logout expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_afterLogin_browserBack(TestLogin.java:134)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:59:16 AM</td>
-        <td>
-          verify_login_afterLogin_browserBack
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="27"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:23 AM</span> / <span>00:00:01:595</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:23 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:24 AM</span>
-<span class='badge badge-default'>00:00:01:595</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:23 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:59:24 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="28"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:30 AM</span> / <span>00:00:01:698</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:30 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:32 AM</span>
-<span class='badge badge-default'>00:00:01:698</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:30 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:59:32 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="29"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:37 AM</span> / <span>00:00:01:632</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:37 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:39 AM</span>
-<span class='badge badge-default'>00:00:01:632</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:37 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:59:39 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="30"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:44 AM</span> / <span>00:00:01:633</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:44 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:46 AM</span>
-<span class='badge badge-default'>00:00:01:633</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:44 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:59:46 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="31"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:51 AM</span> / <span>00:00:01:548</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:51 AM</span>
-<span class='badge badge-danger'>02.20.2023 11:59:53 AM</span>
-<span class='badge badge-default'>00:00:01:548</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:51 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:59:53 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="32"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>11:59:58 AM</span> / <span>00:00:01:701</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 11:59:58 AM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:00 PM</span>
-<span class='badge badge-default'>00:00:01:701</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:59:58 AM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:00 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="33"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>12:00:05 PM</span> / <span>00:00:02:100</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 12:00:05 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:08 PM</span>
-<span class='badge badge-default'>00:00:02:100</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:05 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:08 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="34"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>12:00:14 PM</span> / <span>00:00:01:713</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 12:00:14 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:16 PM</span>
-<span class='badge badge-default'>00:00:01:713</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:14 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:16 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="35"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>12:00:21 PM</span> / <span>00:00:01:671</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 12:00:21 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:23 PM</span>
-<span class='badge badge-default'>00:00:01:671</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:21 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:23 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="36"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_MultipleTime_Unsuccessful_attempt</p>
-            <p class="text-sm">
-              <span>12:00:28 PM</span> / <span>00:00:01:604</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_MultipleTime_Unsuccessful_attempt</h5>
-<span class='badge badge-success'>02.20.2023 12:00:28 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:30 PM</span>
-<span class='badge badge-default'>00:00:01:604</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:28 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:30 PM</td>
-        <td>
-          verify_login_MultipleTime_Unsuccessful_attempt
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="37"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_Copying_TEXT_PasswordFiled</p>
-            <p class="text-sm">
-              <span>12:00:36 PM</span> / <span>00:00:01:295</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_Copying_TEXT_PasswordFiled</h5>
-<span class='badge badge-success'>02.20.2023 12:00:36 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:37 PM</span>
-<span class='badge badge-default'>00:00:01:295</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:36 PM</td>
-        <td>
-          verify_login_Copying_TEXT_PasswordFiled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:37 PM</td>
-        <td>
-          verify_login_Copying_TEXT_PasswordFiled
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="38"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_Code_In_SourceCode_PasswordFiled</p>
-            <p class="text-sm">
-              <span>12:00:43 PM</span> / <span>00:00:01:873</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_login_Code_In_SourceCode_PasswordFiled</h5>
-<span class='badge badge-success'>02.20.2023 12:00:43 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:44 PM</span>
-<span class='badge badge-default'>00:00:01:873</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_Code_In_SourceCode_PasswordFiled.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_Code_In_SourceCode_PasswordFiled.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_Code_In_SourceCode_PasswordFiled.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_login_Code_In_SourceCode_PasswordFiled.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:43 PM</td>
-        <td>
-          verify_login_Code_In_SourceCode_PasswordFiled
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:44 PM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: did not expect [xyzabc123   ] but found [xyzabc123   ]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failEquals(Assert.java:1417)
-	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
-	at org.testng.Assert.assertNotEquals(Assert.java:2033)
-	at org.testng.Assert.assertNotEquals(Assert.java:2055)
-	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_Code_In_SourceCode_PasswordFiled(TestLogin.java:181)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:00:44 PM</td>
-        <td>
-          verify_login_Code_In_SourceCode_PasswordFiled
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="39"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_after_Changing_Password</p>
-            <p class="text-sm">
-              <span>12:00:50 PM</span> / <span>00:00:05:133</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_after_Changing_Password</h5>
-<span class='badge badge-success'>02.20.2023 12:00:50 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:00:55 PM</span>
-<span class='badge badge-default'>00:00:05:133</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:00:50 PM</td>
-        <td>
-          verify_login_after_Changing_Password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:00:55 PM</td>
-        <td>
-          verify_login_after_Changing_Password
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="40"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_able_to_navigate_to_otherPages</p>
-            <p class="text-sm">
-              <span>12:01:00 PM</span> / <span>00:00:02:044</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_able_to_navigate_to_otherPages</h5>
-<span class='badge badge-success'>02.20.2023 12:01:00 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:02 PM</span>
-<span class='badge badge-default'>00:00:02:044</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:00 PM</td>
-        <td>
-          verify_login_able_to_navigate_to_otherPages
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:01:02 PM</td>
-        <td>
-          verify_login_able_to_navigate_to_otherPages
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="41"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_login_after_Changing_Password_and_Changing_toOriginal_password</p>
-            <p class="text-sm">
-              <span>12:01:07 PM</span> / <span>00:00:05:483</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_login_after_Changing_Password_and_Changing_toOriginal_password</h5>
-<span class='badge badge-success'>02.20.2023 12:01:07 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:13 PM</span>
-<span class='badge badge-default'>00:00:05:483</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:07 PM</td>
-        <td>
-          verify_login_after_Changing_Password_and_Changing_toOriginal_password
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:01:13 PM</td>
-        <td>
-          verify_login_after_Changing_Password_and_Changing_toOriginal_password
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="42"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</p>
-            <p class="text-sm">
-              <span>12:01:19 PM</span> / <span>00:00:01:898</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</h5>
-<span class='badge badge-success'>02.20.2023 12:01:19 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:21 PM</span>
-<span class='badge badge-default'>00:00:01:898</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:19 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_From_MyAccount_Dropdown
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:01:21 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_From_MyAccount_Dropdown
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="43"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_By_LoggingOut_From_LogoutOption_OnPage</p>
-            <p class="text-sm">
-              <span>12:01:27 PM</span> / <span>00:00:01:779</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Logout_By_LoggingOut_From_LogoutOption_OnPage</h5>
-<span class='badge badge-success'>02.20.2023 12:01:27 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:29 PM</span>
-<span class='badge badge-default'>00:00:01:779</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:27 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_From_LogoutOption_OnPage
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:01:29 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_From_LogoutOption_OnPage
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="44"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_By_LoggingOut_And_BrowsingBack</p>
-            <p class="text-sm">
-              <span>12:01:35 PM</span> / <span>00:00:01:757</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_Logout_By_LoggingOut_And_BrowsingBack</h5>
-<span class='badge badge-success'>02.20.2023 12:01:35 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:37 PM</span>
-<span class='badge badge-default'>00:00:01:757</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Logout_By_LoggingOut_And_BrowsingBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Logout_By_LoggingOut_And_BrowsingBack.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Logout_By_LoggingOut_And_BrowsingBack.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_Logout_By_LoggingOut_And_BrowsingBack.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:35 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_And_BrowsingBack
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:37 PM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: expected [Account Logout] but found [My Account]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.tutorialsninja.qa.testCases.TestLogout.verify_Logout_By_LoggingOut_And_BrowsingBack(TestLogout.java:64)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:01:37 PM</td>
-        <td>
-          verify_Logout_By_LoggingOut_And_BrowsingBack
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="45"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown</p>
-            <p class="text-sm">
-              <span>12:01:43 PM</span> / <span>00:00:10:257</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown</h5>
-<span class='badge badge-success'>02.20.2023 12:01:43 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:01:53 PM</span>
-<span class='badge badge-default'>00:00:10:257</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:43 PM</td>
-        <td>
-          verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:01:53 PM</td>
-        <td>
-          verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="46"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column</p>
-            <p class="text-sm">
-              <span>12:01:59 PM</span> / <span>00:00:10:033</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column</h5>
-<span class='badge badge-success'>02.20.2023 12:01:59 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:02:09 PM</span>
-<span class='badge badge-default'>00:00:10:033</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:01:59 PM</td>
-        <td>
-          verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:02:09 PM</td>
-        <td>
-          verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="47"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_Logout_AfterLogout_FromOneAccount_AnotherAccount</p>
-            <p class="text-sm">
-              <span>12:02:15 PM</span> / <span>00:00:02:574</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_Logout_AfterLogout_FromOneAccount_AnotherAccount</h5>
-<span class='badge badge-success'>02.20.2023 12:02:15 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:02:18 PM</span>
-<span class='badge badge-default'>00:00:02:574</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:02:15 PM</td>
-        <td>
-          verify_Logout_AfterLogout_FromOneAccount_AnotherAccount
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:02:18 PM</td>
-        <td>
-          verify_Logout_AfterLogout_FromOneAccount_AnotherAccount
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="48"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_forgetPassword_Withoutout_reset_but_IntitiateProcess</p>
-            <p class="text-sm">
-              <span>12:02:24 PM</span> / <span>00:00:02:132</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_forgetPassword_Withoutout_reset_but_IntitiateProcess</h5>
-<span class='badge badge-success'>02.20.2023 12:02:24 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:02:26 PM</span>
-<span class='badge badge-default'>00:00:02:132</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:02:24 PM</td>
-        <td>
-          verify_forgetPassword_Withoutout_reset_but_IntitiateProcess
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:02:26 PM</td>
-        <td>
-          verify_forgetPassword_Withoutout_reset_but_IntitiateProcess
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="49"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_forgetPassword_With_nonRegistered_Account</p>
-            <p class="text-sm">
-              <span>12:02:32 PM</span> / <span>00:00:01:229</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">verify_forgetPassword_With_nonRegistered_Account</h5>
-<span class='badge badge-success'>02.20.2023 12:02:32 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:02:33 PM</span>
-<span class='badge badge-default'>00:00:01:229</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:02:32 PM</td>
-        <td>
-          verify_forgetPassword_With_nonRegistered_Account
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:02:33 PM</td>
-        <td>
-          verify_forgetPassword_With_nonRegistered_Account
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="50"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">verify_forgetPassword_Without_providing_EmailAddress</p>
-            <p class="text-sm">
-              <span>12:02:40 PM</span> / <span>00:00:01:047</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">verify_forgetPassword_Without_providing_EmailAddress</h5>
-<span class='badge badge-success'>02.20.2023 12:02:40 PM</span>
-<span class='badge badge-danger'>02.20.2023 12:02:41 PM</span>
-<span class='badge badge-default'>00:00:01:047</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_forgetPassword_Without_providing_EmailAddress.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_forgetPassword_Without_providing_EmailAddress.png">
-    
-    </div></div>
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_forgetPassword_Without_providing_EmailAddress.png' src="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\Screenshots\verify_forgetPassword_Without_providing_EmailAddress.png">
-    
-    </div></div>
-<div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:02:40 PM</td>
-        <td>
-          verify_forgetPassword_Without_providing_EmailAddress
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>12:02:41 PM</td>
-        <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: E-Mail must be between 4 and 20 characters!' should be displayed for 'E-Mail Address' field expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</textarea>
-          
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:02:41 PM</td>
-        <td>
-          verify_forgetPassword_Without_providing_EmailAddress
+          verify_forgetPassword_User_able_to_restore_password
         </td>
       </tr>
   </tbody>
@@ -3042,15 +514,15 @@ Session ID: 84035b78aa2951069176783dab933dc3
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>8</span>
+<span class='badge log badge-skip'>3</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
-<p class="duration text-sm">8 tests</p>
+<p class="name">org.openqa.selenium.remote.http.ConnectionFailedException</p>
+<p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
-<span status="fail" class='badge log badge-danger'>8 failed</span>
+<h4>org.openqa.selenium.remote.http.ConnectionFailedException</h4>
+<span status="skip" class='badge log badge-skip'>3 skipped</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -3061,60 +533,25 @@ Session ID: 84035b78aa2951069176783dab933dc3
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:56:49 AM</td>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:46:06 PM</td>
 <td>
-<a href="#" class="linked" test-id='11' id='11'>verify_Registering_By_Invalid_Phone</a>
+<a href="#" class="linked" test-id='1' id='1'>verify_Registering_Mandatory_Field</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:56:58 AM</td>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:46:09 PM</td>
 <td>
-<a href="#" class="linked" test-id='12' id='12'>verify_Registering_By_Invalid_Phone</a>
+<a href="#" class="linked" test-id='2' id='2'>verify_login_With_Valid_Credential</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:57:06 AM</td>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:46:24 PM</td>
 <td>
-<a href="#" class="linked" test-id='13' id='13'>verify_Registering_With_Space_Field</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:57:34 AM</td>
-<td>
-<a href="#" class="linked" test-id='15' id='15'>verify_Registering_Spaces_Trimmed</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:59:13 AM</td>
-<td>
-<a href="#" class="linked" test-id='26' id='26'>verify_login_afterLogin_browserBack</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>12:00:43 PM</td>
-<td>
-<a href="#" class="linked" test-id='38' id='38'>verify_login_Code_In_SourceCode_PasswordFiled</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>12:01:35 PM</td>
-<td>
-<a href="#" class="linked" test-id='44' id='44'>verify_Logout_By_LoggingOut_And_BrowsingBack</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>12:02:40 PM</td>
-<td>
-<a href="#" class="linked" test-id='50' id='50'>verify_forgetPassword_Without_providing_EmailAddress</a>
+<a href="#" class="linked" test-id='4' id='4'>verify_forgetPassword_User_able_to_restore_password</a>
 </td>
 </tr>
 </tbody>
@@ -3124,15 +561,15 @@ Session ID: 84035b78aa2951069176783dab933dc3
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-skip'>1</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">org.openqa.selenium.SessionNotCreatedException</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<h4>org.openqa.selenium.SessionNotCreatedException</h4>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -3143,18 +580,11 @@ Session ID: 84035b78aa2951069176783dab933dc3
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:57:14 AM</td>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>18:46:20 PM</td>
 <td>
-<a href="#" class="linked" test-id='14' id='14'>verify_Registering_Complexity_Password</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:58:56 AM</td>
-<td>
-<a href="#" class="linked" test-id='25' id='25'>verify_login_With_Valid_Credential_BrowserBack</a>
+<a href="#" class="linked" test-id='3' id='3'>verify_Logout_By_LoggingOut_From_MyAccount_Dropdown</a>
 </td>
 </tr>
 </tbody>
@@ -3174,25 +604,25 @@ Session ID: 84035b78aa2951069176783dab933dc3
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>20/02/2023 11:54:59</h3>
+<h3>16/05/2023 06:45:51</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>20/02/2023 12:02:41</h3>
+<h3>16/05/2023 06:46:24</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>40</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>10</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -3208,13 +638,13 @@ Session ID: 84035b78aa2951069176783dab933dc3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='80%'>
-<b>40</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='20%'><b>10</b> tests failed,
-<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>4</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -3231,10 +661,10 @@ Session ID: 84035b78aa2951069176783dab933dc3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='36%'><b>40</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='9%'><b>10</b> events failed,
-<b data-tooltip='%'>60</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>12</b> others
 </small>
 </div>
 </div>
@@ -3250,7 +680,7 @@ Session ID: 84035b78aa2951069176783dab933dc3
 </div></div>
 <script>
 var timeline = {
-"verify_Registering_Mandatory_Field":3.038,"verify_Registering_BY_Providing_All_Fileds":3.074,"verify_Notification_BY_NotProviding_All_Fileds_BySubmiting":2.021,"verify_Registering_Newsletter_NO":3.235,"verify_Registering_Newsletter_YES":2.987,"verify_Registering_By_Different_Pass_con_pass":4.705,"verify_Registering_By_Existing_Account":3.986,"verify_Registering_By_Invalid_Email":3.798,"verify_Registering_By_Invalid_Email":2.308,"verify_Registering_By_Invalid_Email":2.386,"verify_Registering_By_Invalid_Phone":3.494,"verify_Registering_By_Invalid_Phone":2.665,"verify_Registering_With_Space_Field":3.167,"verify_Registering_Complexity_Password":12.643,"verify_Registering_Spaces_Trimmed":3.511,"verify_Registering_PrivacyPolicy_isSelected":1.264,"verify_Registering_PrivacyPolicy_Without_Selecting":2.556,"verify_Registering_enterPassword_WithoutConfirmPassword":3.155,"verify_login_With_Valid_Credential":2.089,"verify_login_With_InValid_Credential":1.735,"verify_login_With_Valid_password_invalid_userName":1.762,"verify_login_With_Valid_userName_invalid_password":1.769,"verify_login_Without_Credentials":1.522,"verify_login_Forgetten_Password":1.229,"verify_login_With_Valid_Credential_BrowserBack":12.1,"verify_login_afterLogin_browserBack":2.745,"verify_login_MultipleTime_Unsuccessful_attempt":1.595,"verify_login_MultipleTime_Unsuccessful_attempt":1.698,"verify_login_MultipleTime_Unsuccessful_attempt":1.632,"verify_login_MultipleTime_Unsuccessful_attempt":1.633,"verify_login_MultipleTime_Unsuccessful_attempt":1.548,"verify_login_MultipleTime_Unsuccessful_attempt":1.701,"verify_login_MultipleTime_Unsuccessful_attempt":2.1,"verify_login_MultipleTime_Unsuccessful_attempt":1.713,"verify_login_MultipleTime_Unsuccessful_attempt":1.671,"verify_login_MultipleTime_Unsuccessful_attempt":1.604,"verify_login_Copying_TEXT_PasswordFiled":1.295,"verify_login_Code_In_SourceCode_PasswordFiled":1.873,"verify_login_after_Changing_Password":5.133,"verify_login_able_to_navigate_to_otherPages":2.044,"verify_login_after_Changing_Password_and_Changing_toOriginal_password":5.483,"verify_Logout_By_LoggingOut_From_MyAccount_Dropdown":1.898,"verify_Logout_By_LoggingOut_From_LogoutOption_OnPage":1.779,"verify_Logout_By_LoggingOut_And_BrowsingBack":1.757,"verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown":10.257,"verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column":10.033,"verify_Logout_AfterLogout_FromOneAccount_AnotherAccount":2.574,"verify_forgetPassword_Withoutout_reset_but_IntitiateProcess":2.132,"verify_forgetPassword_With_nonRegistered_Account":1.229,"verify_forgetPassword_Without_providing_EmailAddress":1.047
+"verify_Registering_Mandatory_Field":0.034,"verify_login_With_Valid_Credential":0.003,"verify_Logout_By_LoggingOut_From_MyAccount_Dropdown":0.003,"verify_forgetPassword_User_able_to_restore_password":0.004
 };
 </script>
 <div class="row">
@@ -3278,7 +708,7 @@ var timeline = {
 </tr>
 <tr>
 <td>Browser Name</td>
-<td>edge</td>
+<td>chrome</td>
 </tr>
 </tbody>
 </table></div>
@@ -3289,10 +719,10 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 40,
-failParent: 10,
+passParent: 0,
+failParent: 0,
 warningParent: 0,
-skipParent: 0,
+skipParent: 4,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -3306,11 +736,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 40,
-failEvents: 10,
+passEvents: 0,
+failEvents: 0,
 warningEvents: 0,
-skipEvents: 0,
-infoEvents: 60
+skipEvents: 4,
+infoEvents: 8
 };
 </script>        </div>
       </div>

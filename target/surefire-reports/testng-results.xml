@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="50" passed="40" failed="10" skipped="0">
+<testng-results ignored="0" total="51" passed="40" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T11:54:59 IST" name="Automation Test Suite" finished-at="2023-02-20T12:02:41 IST" duration-ms="462297">
+  <suite started-at="2023-02-21T15:43:40 IST" name="Automation Test Suite" finished-at="2023-02-21T15:51:19 IST" duration-ms="458833">
     <groups>
       <group name="smoke">
-        <method signature="TestForgetPassword.verify_forgetPassword_Withoutout_reset_but_IntitiateProcess()[pri:1, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" name="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess" class="com.tutorialsninja.qa.testCases.TestForgetPassword"/>
-        <method signature="TestLogout.verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" class="com.tutorialsninja.qa.testCases.TestLogout"/>
-        <method signature="TestLogin.verify_login_With_Valid_Credential()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" name="verify_login_With_Valid_Credential" class="com.tutorialsninja.qa.testCases.TestLogin"/>
-        <method signature="TestRegister.verify_Registering_Mandatory_Field()[pri:1, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" name="verify_Registering_Mandatory_Field" class="com.tutorialsninja.qa.testCases.TestRegister"/>
+        <method signature="TestForgetPassword.verify_forgetPassword_User_able_to_restore_password()[pri:1, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" name="verify_forgetPassword_User_able_to_restore_password" class="com.tutorialsninja.qa.testCases.TestForgetPassword"/>
+        <method signature="TestLogout.verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" class="com.tutorialsninja.qa.testCases.TestLogout"/>
+        <method signature="TestLogin.verify_login_With_Valid_Credential()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" name="verify_login_With_Valid_Credential" class="com.tutorialsninja.qa.testCases.TestLogin"/>
+        <method signature="TestRegister.verify_Registering_Mandatory_Field()[pri:1, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" name="verify_Registering_Mandatory_Field" class="com.tutorialsninja.qa.testCases.TestRegister"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-02-20T11:54:59 IST" name="Automation Test cases" finished-at="2023-02-20T12:02:41 IST" duration-ms="462297">
+    <test started-at="2023-02-21T15:43:40 IST" name="Automation Test cases" finished-at="2023-02-21T15:51:19 IST" duration-ms="458833">
       <class name="com.tutorialsninja.qa.testCases.TestLogin">
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:03 IST" name="initilization" finished-at="2023-02-20T11:58:08 IST" duration-ms="5054" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:28 IST" name="initilization" finished-at="2023-02-21T15:46:34 IST" duration-ms="5210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_With_Valid_Credential()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:08 IST" name="verify_login_With_Valid_Credential" finished-at="2023-02-20T11:58:10 IST" duration-ms="2089" status="PASS">
+        <test-method signature="verify_login_With_Valid_Credential()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:34 IST" name="verify_login_With_Valid_Credential" finished-at="2023-02-21T15:46:35 IST" duration-ms="1757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_With_Valid_Credential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:10 IST" name="tearDown" finished-at="2023-02-20T11:58:10 IST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:35 IST" name="tearDown" finished-at="2023-02-21T15:46:36 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:10 IST" name="initilization" finished-at="2023-02-20T11:58:15 IST" duration-ms="4944" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:36 IST" name="initilization" finished-at="2023-02-21T15:46:41 IST" duration-ms="5331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_With_InValid_Credential()[pri:2, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:15 IST" name="verify_login_With_InValid_Credential" finished-at="2023-02-20T11:58:17 IST" duration-ms="1736" status="PASS">
+        <test-method signature="verify_login_With_InValid_Credential()[pri:2, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:41 IST" name="verify_login_With_InValid_Credential" finished-at="2023-02-21T15:46:43 IST" duration-ms="1755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_With_InValid_Credential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:17 IST" name="tearDown" finished-at="2023-02-20T11:58:24 IST" duration-ms="6453" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:43 IST" name="tearDown" finished-at="2023-02-21T15:46:43 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:24 IST" name="initilization" finished-at="2023-02-20T11:58:29 IST" duration-ms="5059" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:43 IST" name="initilization" finished-at="2023-02-21T15:46:48 IST" duration-ms="5366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_With_Valid_password_invalid_userName()[pri:3, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:29 IST" name="verify_login_With_Valid_password_invalid_userName" finished-at="2023-02-20T11:58:30 IST" duration-ms="1761" status="PASS">
+        <test-method signature="verify_login_With_Valid_password_invalid_userName()[pri:3, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:48 IST" name="verify_login_With_Valid_password_invalid_userName" finished-at="2023-02-21T15:46:50 IST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_With_Valid_password_invalid_userName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:30 IST" name="tearDown" finished-at="2023-02-20T11:58:31 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:50 IST" name="tearDown" finished-at="2023-02-21T15:46:50 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:31 IST" name="initilization" finished-at="2023-02-20T11:58:36 IST" duration-ms="5059" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:50 IST" name="initilization" finished-at="2023-02-21T15:46:55 IST" duration-ms="5065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_With_Valid_userName_invalid_password()[pri:4, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:36 IST" name="verify_login_With_Valid_userName_invalid_password" finished-at="2023-02-20T11:58:37 IST" duration-ms="1769" status="PASS">
+        <test-method signature="verify_login_With_Valid_userName_invalid_password()[pri:4, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:55 IST" name="verify_login_With_Valid_userName_invalid_password" finished-at="2023-02-21T15:46:58 IST" duration-ms="2344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_With_Valid_userName_invalid_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:37 IST" name="tearDown" finished-at="2023-02-20T11:58:38 IST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:58 IST" name="tearDown" finished-at="2023-02-21T15:46:58 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:38 IST" name="initilization" finished-at="2023-02-20T11:58:43 IST" duration-ms="5130" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:46:58 IST" name="initilization" finished-at="2023-02-21T15:47:03 IST" duration-ms="5019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_Without_Credentials()[pri:5, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:43 IST" name="verify_login_Without_Credentials" finished-at="2023-02-20T11:58:44 IST" duration-ms="1523" status="PASS">
+        <test-method signature="verify_login_Without_Credentials()[pri:5, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:03 IST" name="verify_login_Without_Credentials" finished-at="2023-02-21T15:47:05 IST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_Without_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:44 IST" name="tearDown" finished-at="2023-02-20T11:58:45 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:05 IST" name="tearDown" finished-at="2023-02-21T15:47:05 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:45 IST" name="initilization" finished-at="2023-02-20T11:58:50 IST" duration-ms="4941" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:05 IST" name="initilization" finished-at="2023-02-21T15:47:10 IST" duration-ms="5092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_Forgetten_Password()[pri:6, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:50 IST" name="verify_login_Forgetten_Password" finished-at="2023-02-20T11:58:51 IST" duration-ms="1229" status="PASS">
+        <test-method signature="verify_login_Forgetten_Password()[pri:6, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:10 IST" name="verify_login_Forgetten_Password" finished-at="2023-02-21T15:47:12 IST" duration-ms="1780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_Forgetten_Password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:51 IST" name="tearDown" finished-at="2023-02-20T11:58:51 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:12 IST" name="tearDown" finished-at="2023-02-21T15:47:12 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:51 IST" name="initilization" finished-at="2023-02-20T11:58:56 IST" duration-ms="5046" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:12 IST" name="initilization" finished-at="2023-02-21T15:47:17 IST" duration-ms="5201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_With_Valid_Credential_BrowserBack()[pri:9, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:58:56 IST" name="verify_login_With_Valid_Credential_BrowserBack" finished-at="2023-02-20T11:59:08 IST" duration-ms="11952" status="FAIL">
+        <test-method signature="verify_login_With_Valid_Credential_BrowserBack()[pri:9, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:17 IST" name="verify_login_With_Valid_Credential_BrowserBack" finished-at="2023-02-21T15:47:30 IST" duration-ms="12309" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='well'])[2]/h2"}
@@ -98,9 +98,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 84035b78aa2951069176783dab933dc3]]>
+Command: [d175c4017c2b30d2c61e9e505bb7f152, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56590}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d175c4017c2b30d2c61e9e505bb7f152]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='well'])[2]/h2"}
@@ -109,9 +109,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 84035b78aa2951069176783dab933dc3
+Command: [d175c4017c2b30d2c61e9e505bb7f152, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56590}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d175c4017c2b30d2c61e9e505bb7f152
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -130,7 +130,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
 at com.tutorialsninja.qa.pageObjects.LoginPageObjects.returningCustomer_actual_text(LoginPageObjects.java:105)
 at com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential_BrowserBack(TestLogin.java:114)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -171,15 +171,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_With_Valid_Credential_BrowserBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:08 IST" name="tearDown" finished-at="2023-02-20T11:59:08 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:30 IST" name="tearDown" finished-at="2023-02-21T15:47:30 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:08 IST" name="initilization" finished-at="2023-02-20T11:59:13 IST" duration-ms="4961" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:30 IST" name="initilization" finished-at="2023-02-21T15:47:36 IST" duration-ms="5223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_afterLogin_browserBack()[pri:10, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:13 IST" name="verify_login_afterLogin_browserBack" finished-at="2023-02-20T11:59:16 IST" duration-ms="2586" status="FAIL">
+        <test-method signature="verify_login_afterLogin_browserBack()[pri:10, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:36 IST" name="verify_login_afterLogin_browserBack" finished-at="2023-02-21T15:47:38 IST" duration-ms="2449" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Account Logout expected [true] but found [false]]]>
@@ -228,147 +228,147 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_afterLogin_browserBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:16 IST" name="tearDown" finished-at="2023-02-20T11:59:16 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:38 IST" name="tearDown" finished-at="2023-02-21T15:47:38 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:16 IST" name="initilization" finished-at="2023-02-20T11:59:23 IST" duration-ms="6418" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:38 IST" name="initilization" finished-at="2023-02-21T15:47:44 IST" duration-ms="5521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:23 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T11:59:24 IST" duration-ms="1595" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:44 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:47:47 IST" duration-ms="2827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:24 IST" name="tearDown" finished-at="2023-02-20T11:59:25 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:47 IST" name="tearDown" finished-at="2023-02-21T15:47:47 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:25 IST" name="initilization" finished-at="2023-02-20T11:59:30 IST" duration-ms="5222" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:47 IST" name="initilization" finished-at="2023-02-21T15:47:52 IST" duration-ms="5207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:30 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T11:59:32 IST" duration-ms="1697" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:52 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:47:54 IST" duration-ms="1621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:32 IST" name="tearDown" finished-at="2023-02-20T11:59:32 IST" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:54 IST" name="tearDown" finished-at="2023-02-21T15:47:54 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:32 IST" name="initilization" finished-at="2023-02-20T11:59:37 IST" duration-ms="5185" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:54 IST" name="initilization" finished-at="2023-02-21T15:47:59 IST" duration-ms="5150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:37 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T11:59:39 IST" duration-ms="1633" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:47:59 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:02 IST" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:39 IST" name="tearDown" finished-at="2023-02-20T11:59:39 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:02 IST" name="tearDown" finished-at="2023-02-21T15:48:02 IST" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:39 IST" name="initilization" finished-at="2023-02-20T11:59:44 IST" duration-ms="5348" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:02 IST" name="initilization" finished-at="2023-02-21T15:48:07 IST" duration-ms="5237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:44 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T11:59:46 IST" duration-ms="1633" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:07 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:10 IST" duration-ms="2442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:46 IST" name="tearDown" finished-at="2023-02-20T11:59:46 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:10 IST" name="tearDown" finished-at="2023-02-21T15:48:10 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:46 IST" name="initilization" finished-at="2023-02-20T11:59:51 IST" duration-ms="4985" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:10 IST" name="initilization" finished-at="2023-02-21T15:48:15 IST" duration-ms="5235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:51 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T11:59:53 IST" duration-ms="1547" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:15 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:17 IST" duration-ms="1627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:53 IST" name="tearDown" finished-at="2023-02-20T11:59:53 IST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:17 IST" name="tearDown" finished-at="2023-02-21T15:48:17 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:53 IST" name="initilization" finished-at="2023-02-20T11:59:58 IST" duration-ms="5036" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:17 IST" name="initilization" finished-at="2023-02-21T15:48:22 IST" duration-ms="4975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T11:59:58 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T12:00:00 IST" duration-ms="1702" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:22 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:24 IST" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:00 IST" name="tearDown" finished-at="2023-02-20T12:00:00 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:24 IST" name="tearDown" finished-at="2023-02-21T15:48:24 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:00 IST" name="initilization" finished-at="2023-02-20T12:00:05 IST" duration-ms="5576" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:24 IST" name="initilization" finished-at="2023-02-21T15:48:29 IST" duration-ms="4991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:05 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T12:00:08 IST" duration-ms="2100" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:29 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:30 IST" duration-ms="1644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:08 IST" name="tearDown" finished-at="2023-02-20T12:00:08 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:30 IST" name="tearDown" finished-at="2023-02-21T15:48:31 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:08 IST" name="initilization" finished-at="2023-02-20T12:00:14 IST" duration-ms="6709" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:31 IST" name="initilization" finished-at="2023-02-21T15:48:36 IST" duration-ms="5181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:14 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T12:00:16 IST" duration-ms="1714" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:36 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:37 IST" duration-ms="1528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:16 IST" name="tearDown" finished-at="2023-02-20T12:00:16 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:37 IST" name="tearDown" finished-at="2023-02-21T15:48:38 IST" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:16 IST" name="initilization" finished-at="2023-02-20T12:00:21 IST" duration-ms="4956" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:38 IST" name="initilization" finished-at="2023-02-21T15:48:44 IST" duration-ms="5764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:21 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T12:00:23 IST" duration-ms="1671" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:44 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:46 IST" duration-ms="2542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:23 IST" name="tearDown" finished-at="2023-02-20T12:00:23 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:46 IST" name="tearDown" finished-at="2023-02-21T15:48:47 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:23 IST" name="initilization" finished-at="2023-02-20T12:00:28 IST" duration-ms="5035" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:47 IST" name="initilization" finished-at="2023-02-21T15:48:52 IST" duration-ms="5126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:28 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-20T12:00:30 IST" duration-ms="1604" status="PASS">
+        <test-method signature="verify_login_MultipleTime_Unsuccessful_attempt()[pri:11, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:52 IST" name="verify_login_MultipleTime_Unsuccessful_attempt" finished-at="2023-02-21T15:48:53 IST" duration-ms="1554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_MultipleTime_Unsuccessful_attempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:30 IST" name="tearDown" finished-at="2023-02-20T12:00:30 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:53 IST" name="tearDown" finished-at="2023-02-21T15:48:54 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:30 IST" name="initilization" finished-at="2023-02-20T12:00:36 IST" duration-ms="5663" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:54 IST" name="initilization" finished-at="2023-02-21T15:48:59 IST" duration-ms="5040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_Copying_TEXT_PasswordFiled()[pri:12, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:36 IST" name="verify_login_Copying_TEXT_PasswordFiled" finished-at="2023-02-20T12:00:37 IST" duration-ms="1296" status="PASS">
+        <test-method signature="verify_login_Copying_TEXT_PasswordFiled()[pri:12, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:48:59 IST" name="verify_login_Copying_TEXT_PasswordFiled" finished-at="2023-02-21T15:49:00 IST" duration-ms="1417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_Copying_TEXT_PasswordFiled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:37 IST" name="tearDown" finished-at="2023-02-20T12:00:37 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:00 IST" name="tearDown" finished-at="2023-02-21T15:49:00 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:37 IST" name="initilization" finished-at="2023-02-20T12:00:43 IST" duration-ms="5139" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:00 IST" name="initilization" finished-at="2023-02-21T15:49:05 IST" duration-ms="5056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_Code_In_SourceCode_PasswordFiled()[pri:13, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:43 IST" name="verify_login_Code_In_SourceCode_PasswordFiled" finished-at="2023-02-20T12:00:44 IST" duration-ms="1701" status="FAIL">
+        <test-method signature="verify_login_Code_In_SourceCode_PasswordFiled()[pri:13, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:05 IST" name="verify_login_Code_In_SourceCode_PasswordFiled" finished-at="2023-02-21T15:49:08 IST" duration-ms="2765" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect [xyzabc123   ] but found [xyzabc123   ]]]>
@@ -419,77 +419,135 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_Code_In_SourceCode_PasswordFiled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:44 IST" name="tearDown" finished-at="2023-02-20T12:00:45 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:08 IST" name="tearDown" finished-at="2023-02-21T15:49:09 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:45 IST" name="initilization" finished-at="2023-02-20T12:00:50 IST" duration-ms="5129" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:09 IST" name="initilization" finished-at="2023-02-21T15:49:14 IST" duration-ms="5841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_after_Changing_Password()[pri:14, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:50 IST" name="verify_login_after_Changing_Password" finished-at="2023-02-20T12:00:55 IST" duration-ms="5132" status="PASS">
+        <test-method signature="verify_login_after_Changing_Password()[pri:14, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:14 IST" name="verify_login_after_Changing_Password" finished-at="2023-02-21T15:49:20 IST" duration-ms="5611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_after_Changing_Password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:55 IST" name="tearDown" finished-at="2023-02-20T12:00:55 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:20 IST" name="tearDown" finished-at="2023-02-21T15:49:20 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:00:55 IST" name="initilization" finished-at="2023-02-20T12:01:00 IST" duration-ms="4732" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:20 IST" name="initilization" finished-at="2023-02-21T15:49:26 IST" duration-ms="5192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_able_to_navigate_to_otherPages()[pri:15, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:01:00 IST" name="verify_login_able_to_navigate_to_otherPages" finished-at="2023-02-20T12:01:02 IST" duration-ms="2043" status="PASS">
+        <test-method signature="verify_login_able_to_navigate_to_otherPages()[pri:15, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:26 IST" name="verify_login_able_to_navigate_to_otherPages" finished-at="2023-02-21T15:49:28 IST" duration-ms="2130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_able_to_navigate_to_otherPages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:01:02 IST" name="tearDown" finished-at="2023-02-20T12:01:02 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:28 IST" name="tearDown" finished-at="2023-02-21T15:49:28 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:01:02 IST" name="initilization" finished-at="2023-02-20T12:01:07 IST" duration-ms="5030" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:28 IST" name="initilization" finished-at="2023-02-21T15:49:33 IST" duration-ms="4912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_login_after_Changing_Password_and_Changing_toOriginal_password()[pri:16, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:01:07 IST" name="verify_login_after_Changing_Password_and_Changing_toOriginal_password" finished-at="2023-02-20T12:01:13 IST" depends-on-methods="com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password" duration-ms="5484" status="PASS">
+        <test-method signature="verify_login_after_Changing_Password_and_Changing_toOriginal_password()[pri:16, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:33 IST" name="verify_login_after_Changing_Password_and_Changing_toOriginal_password" finished-at="2023-02-21T15:49:38 IST" depends-on-methods="com.tutorialsninja.qa.testCases.TestLogin.verify_login_after_Changing_Password" duration-ms="5292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_after_Changing_Password_and_Changing_toOriginal_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@3a93b025]" started-at="2023-02-20T12:01:13 IST" name="tearDown" finished-at="2023-02-20T12:01:13 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogin@6302bbb1]" started-at="2023-02-21T15:49:38 IST" name="tearDown" finished-at="2023-02-21T15:49:38 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.qa.testCases.TestLogin -->
       <class name="com.tutorialsninja.qa.testCases.TestForgetPassword">
-        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:18 IST" name="initlization" finished-at="2023-02-20T12:02:24 IST" duration-ms="5892" status="PASS">
+        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:50:46 IST" name="initlization" finished-at="2023-02-21T15:50:52 IST" duration-ms="5968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initlization -->
-        <test-method signature="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess()[pri:1, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:24 IST" name="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess" finished-at="2023-02-20T12:02:26 IST" duration-ms="2135" status="PASS">
+        <test-method signature="verify_forgetPassword_User_able_to_restore_password()[pri:1, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:50:52 IST" name="verify_forgetPassword_User_able_to_restore_password" finished-at="2023-02-21T15:50:54 IST" duration-ms="2051" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_User_able_to_restore_password(TestForgetPassword.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_forgetPassword_User_able_to_restore_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:50:54 IST" name="tearDown" finished-at="2023-02-21T15:50:54 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:50:54 IST" name="initlization" finished-at="2023-02-21T15:51:00 IST" duration-ms="6095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initlization -->
+        <test-method signature="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess()[pri:2, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:00 IST" name="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess" finished-at="2023-02-21T15:51:03 IST" duration-ms="3172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgetPassword_Withoutout_reset_but_IntitiateProcess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:26 IST" name="tearDown" finished-at="2023-02-20T12:02:26 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:03 IST" name="tearDown" finished-at="2023-02-21T15:51:04 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:26 IST" name="initlization" finished-at="2023-02-20T12:02:32 IST" duration-ms="5884" status="PASS">
+        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:04 IST" name="initlization" finished-at="2023-02-21T15:51:10 IST" duration-ms="6078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initlization -->
-        <test-method signature="verify_forgetPassword_With_nonRegistered_Account()[pri:2, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:32 IST" name="verify_forgetPassword_With_nonRegistered_Account" finished-at="2023-02-20T12:02:33 IST" duration-ms="1229" status="PASS">
+        <test-method signature="verify_forgetPassword_With_nonRegistered_Account()[pri:3, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:10 IST" name="verify_forgetPassword_With_nonRegistered_Account" finished-at="2023-02-21T15:51:11 IST" duration-ms="1331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgetPassword_With_nonRegistered_Account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:33 IST" name="tearDown" finished-at="2023-02-20T12:02:34 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:11 IST" name="tearDown" finished-at="2023-02-21T15:51:11 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:34 IST" name="initlization" finished-at="2023-02-20T12:02:40 IST" duration-ms="6401" status="PASS">
+        <test-method is-config="true" signature="initlization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:11 IST" name="initlization" finished-at="2023-02-21T15:51:17 IST" duration-ms="6047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initlization -->
-        <test-method signature="verify_forgetPassword_Without_providing_EmailAddress()[pri:3, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:40 IST" name="verify_forgetPassword_Without_providing_EmailAddress" finished-at="2023-02-20T12:02:41 IST" duration-ms="848" status="FAIL">
+        <test-method signature="verify_forgetPassword_Without_providing_EmailAddress()[pri:4, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:17 IST" name="verify_forgetPassword_Without_providing_EmailAddress" finished-at="2023-02-21T15:51:18 IST" duration-ms="855" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[E-Mail must be between 4 and 20 characters!' should be displayed for 'E-Mail Address' field expected [true] but found [false]]]>
@@ -499,7 +557,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
+at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:116)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -538,41 +596,41 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_forgetPassword_Without_providing_EmailAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@7e07db1f]" started-at="2023-02-20T12:02:41 IST" name="tearDown" finished-at="2023-02-20T12:02:41 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestForgetPassword@285c6918]" started-at="2023-02-21T15:51:18 IST" name="tearDown" finished-at="2023-02-21T15:51:19 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.qa.testCases.TestForgetPassword -->
       <class name="com.tutorialsninja.qa.testCases.TestLogout">
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:13 IST" name="initilization" finished-at="2023-02-20T12:01:19 IST" duration-ms="5945" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:38 IST" name="initilization" finished-at="2023-02-21T15:49:45 IST" duration-ms="6225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:19 IST" name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" finished-at="2023-02-20T12:01:21 IST" duration-ms="1897" status="PASS">
+        <test-method signature="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown()[pri:1, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:45 IST" name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" finished-at="2023-02-21T15:49:47 IST" duration-ms="2676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_By_LoggingOut_From_MyAccount_Dropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:21 IST" name="tearDown" finished-at="2023-02-20T12:01:21 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:47 IST" name="tearDown" finished-at="2023-02-21T15:49:48 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:21 IST" name="initilization" finished-at="2023-02-20T12:01:27 IST" duration-ms="5935" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:48 IST" name="initilization" finished-at="2023-02-21T15:49:53 IST" duration-ms="5617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage()[pri:2, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:27 IST" name="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage" finished-at="2023-02-20T12:01:29 IST" duration-ms="1780" status="PASS">
+        <test-method signature="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage()[pri:2, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:53 IST" name="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage" finished-at="2023-02-21T15:49:55 IST" duration-ms="2088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_By_LoggingOut_From_LogoutOption_OnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:29 IST" name="tearDown" finished-at="2023-02-20T12:01:29 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:55 IST" name="tearDown" finished-at="2023-02-21T15:49:56 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:29 IST" name="initilization" finished-at="2023-02-20T12:01:35 IST" duration-ms="5959" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:49:56 IST" name="initilization" finished-at="2023-02-21T15:50:02 IST" duration-ms="6145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_By_LoggingOut_And_BrowsingBack()[pri:3, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:35 IST" name="verify_Logout_By_LoggingOut_And_BrowsingBack" finished-at="2023-02-20T12:01:37 IST" duration-ms="1569" status="FAIL">
+        <test-method signature="verify_Logout_By_LoggingOut_And_BrowsingBack()[pri:3, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:02 IST" name="verify_Logout_By_LoggingOut_And_BrowsingBack" finished-at="2023-02-21T15:50:03 IST" duration-ms="1490" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Account Logout] but found [My Account]]]>
@@ -624,137 +682,137 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_By_LoggingOut_And_BrowsingBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:37 IST" name="tearDown" finished-at="2023-02-20T12:01:37 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:03 IST" name="tearDown" finished-at="2023-02-21T15:50:04 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:37 IST" name="initilization" finished-at="2023-02-20T12:01:43 IST" duration-ms="5473" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:04 IST" name="initilization" finished-at="2023-02-21T15:50:09 IST" duration-ms="5646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown()[pri:4, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:43 IST" name="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown" finished-at="2023-02-20T12:01:53 IST" duration-ms="10257" status="PASS">
+        <test-method signature="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown()[pri:4, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:09 IST" name="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown" finished-at="2023-02-21T15:50:19 IST" duration-ms="10175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:53 IST" name="tearDown" finished-at="2023-02-20T12:01:53 IST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:19 IST" name="tearDown" finished-at="2023-02-21T15:50:20 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:53 IST" name="initilization" finished-at="2023-02-20T12:01:59 IST" duration-ms="6138" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:20 IST" name="initilization" finished-at="2023-02-21T15:50:26 IST" duration-ms="6293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column()[pri:5, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:01:59 IST" name="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column" finished-at="2023-02-20T12:02:09 IST" duration-ms="10033" status="PASS">
+        <test-method signature="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column()[pri:5, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:26 IST" name="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column" finished-at="2023-02-21T15:50:36 IST" duration-ms="10040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:02:09 IST" name="tearDown" finished-at="2023-02-20T12:02:10 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:36 IST" name="tearDown" finished-at="2023-02-21T15:50:36 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:02:10 IST" name="initilization" finished-at="2023-02-20T12:02:15 IST" duration-ms="5531" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:36 IST" name="initilization" finished-at="2023-02-21T15:50:43 IST" duration-ms="6263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount()[pri:6, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:02:15 IST" name="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount" finished-at="2023-02-20T12:02:18 IST" duration-ms="2574" status="PASS">
+        <test-method signature="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount()[pri:6, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:43 IST" name="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount" finished-at="2023-02-21T15:50:45 IST" duration-ms="2733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout_AfterLogout_FromOneAccount_AnotherAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@35cabb2a]" started-at="2023-02-20T12:02:18 IST" name="tearDown" finished-at="2023-02-20T12:02:18 IST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestLogout@31304f14]" started-at="2023-02-21T15:50:45 IST" name="tearDown" finished-at="2023-02-21T15:50:46 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.qa.testCases.TestLogout -->
       <class name="com.tutorialsninja.qa.testCases.TestRegister">
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:00 IST" name="initilization" finished-at="2023-02-20T11:55:12 IST" duration-ms="12185" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:43:40 IST" name="initilization" finished-at="2023-02-21T15:43:51 IST" duration-ms="11097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_Mandatory_Field()[pri:1, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:12 IST" name="verify_Registering_Mandatory_Field" finished-at="2023-02-20T11:55:15 IST" duration-ms="3045" status="PASS">
+        <test-method signature="verify_Registering_Mandatory_Field()[pri:1, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:43:51 IST" name="verify_Registering_Mandatory_Field" finished-at="2023-02-21T15:43:56 IST" duration-ms="4536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_Mandatory_Field -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:15 IST" name="tearDown" finished-at="2023-02-20T11:55:16 IST" duration-ms="539" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:43:56 IST" name="tearDown" finished-at="2023-02-21T15:43:57 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:16 IST" name="initilization" finished-at="2023-02-20T11:55:21 IST" duration-ms="5890" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:43:57 IST" name="initilization" finished-at="2023-02-21T15:44:02 IST" duration-ms="5435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_BY_Providing_All_Fileds()[pri:2, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:21 IST" name="verify_Registering_BY_Providing_All_Fileds" finished-at="2023-02-20T11:55:25 IST" duration-ms="3076" status="PASS">
+        <test-method signature="verify_Registering_BY_Providing_All_Fileds()[pri:2, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:02 IST" name="verify_Registering_BY_Providing_All_Fileds" finished-at="2023-02-21T15:44:06 IST" duration-ms="3963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_BY_Providing_All_Fileds -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:25 IST" name="tearDown" finished-at="2023-02-20T11:55:25 IST" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:06 IST" name="tearDown" finished-at="2023-02-21T15:44:06 IST" duration-ms="448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:25 IST" name="initilization" finished-at="2023-02-20T11:55:31 IST" duration-ms="5570" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:06 IST" name="initilization" finished-at="2023-02-21T15:44:12 IST" duration-ms="5214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting()[pri:3, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:31 IST" name="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting" finished-at="2023-02-20T11:55:33 IST" duration-ms="2024" status="PASS">
+        <test-method signature="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting()[pri:3, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:12 IST" name="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting" finished-at="2023-02-21T15:44:13 IST" duration-ms="1717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Notification_BY_NotProviding_All_Fileds_BySubmiting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:33 IST" name="tearDown" finished-at="2023-02-20T11:55:33 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:13 IST" name="tearDown" finished-at="2023-02-21T15:44:14 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:33 IST" name="initilization" finished-at="2023-02-20T11:55:38 IST" duration-ms="5435" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:14 IST" name="initilization" finished-at="2023-02-21T15:44:19 IST" duration-ms="5139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_Newsletter_NO()[pri:4, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:38 IST" name="verify_Registering_Newsletter_NO" finished-at="2023-02-20T11:55:42 IST" duration-ms="3235" status="PASS">
+        <test-method signature="verify_Registering_Newsletter_NO()[pri:4, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:19 IST" name="verify_Registering_Newsletter_NO" finished-at="2023-02-21T15:44:21 IST" duration-ms="2680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_Newsletter_NO -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:42 IST" name="tearDown" finished-at="2023-02-20T11:55:42 IST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:21 IST" name="tearDown" finished-at="2023-02-21T15:44:22 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:42 IST" name="initilization" finished-at="2023-02-20T11:55:50 IST" duration-ms="8158" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:22 IST" name="initilization" finished-at="2023-02-21T15:44:27 IST" duration-ms="5158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_Newsletter_YES()[pri:5, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:50 IST" name="verify_Registering_Newsletter_YES" finished-at="2023-02-20T11:55:53 IST" duration-ms="2987" status="PASS">
+        <test-method signature="verify_Registering_Newsletter_YES()[pri:5, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:27 IST" name="verify_Registering_Newsletter_YES" finished-at="2023-02-21T15:44:30 IST" duration-ms="2929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_Newsletter_YES -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:53 IST" name="tearDown" finished-at="2023-02-20T11:55:53 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:30 IST" name="tearDown" finished-at="2023-02-21T15:44:30 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:53 IST" name="initilization" finished-at="2023-02-20T11:55:59 IST" duration-ms="5345" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:30 IST" name="initilization" finished-at="2023-02-21T15:44:35 IST" duration-ms="5195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Different_Pass_con_pass()[pri:6, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:55:59 IST" name="verify_Registering_By_Different_Pass_con_pass" finished-at="2023-02-20T11:56:04 IST" duration-ms="4705" status="PASS">
+        <test-method signature="verify_Registering_By_Different_Pass_con_pass()[pri:6, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:35 IST" name="verify_Registering_By_Different_Pass_con_pass" finished-at="2023-02-21T15:44:38 IST" duration-ms="2916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Different_Pass_con_pass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:04 IST" name="tearDown" finished-at="2023-02-20T11:56:04 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:38 IST" name="tearDown" finished-at="2023-02-21T15:44:38 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:04 IST" name="initilization" finished-at="2023-02-20T11:56:09 IST" duration-ms="5176" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:38 IST" name="initilization" finished-at="2023-02-21T15:44:44 IST" duration-ms="5190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Existing_Account()[pri:7, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:09 IST" name="verify_Registering_By_Existing_Account" finished-at="2023-02-20T11:56:13 IST" duration-ms="3986" status="PASS">
+        <test-method signature="verify_Registering_By_Existing_Account()[pri:7, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:44 IST" name="verify_Registering_By_Existing_Account" finished-at="2023-02-21T15:44:46 IST" duration-ms="2622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Existing_Account -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:13 IST" name="tearDown" finished-at="2023-02-20T11:56:13 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:46 IST" name="tearDown" finished-at="2023-02-21T15:44:47 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:15 IST" name="initilization" finished-at="2023-02-20T11:56:21 IST" duration-ms="6556" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:48 IST" name="initilization" finished-at="2023-02-21T15:44:53 IST" duration-ms="5012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:21 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-20T11:56:25 IST" duration-ms="3798" status="PASS">
+        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:53 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-21T15:44:55 IST" duration-ms="2123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -770,15 +828,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Invalid_Email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:25 IST" name="tearDown" finished-at="2023-02-20T11:56:25 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:55 IST" name="tearDown" finished-at="2023-02-21T15:44:55 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:25 IST" name="initilization" finished-at="2023-02-20T11:56:32 IST" duration-ms="6891" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:44:55 IST" name="initilization" finished-at="2023-02-21T15:45:01 IST" duration-ms="5665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:32 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-20T11:56:35 IST" duration-ms="2311" status="PASS">
+        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:01 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-21T15:45:04 IST" duration-ms="2933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,15 +852,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Invalid_Email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:35 IST" name="tearDown" finished-at="2023-02-20T11:56:35 IST" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:04 IST" name="tearDown" finished-at="2023-02-21T15:45:04 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:35 IST" name="initilization" finished-at="2023-02-20T11:56:41 IST" duration-ms="5878" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:04 IST" name="initilization" finished-at="2023-02-21T15:45:09 IST" duration-ms="5061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:41 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-20T11:56:43 IST" duration-ms="2386" status="PASS">
+        <test-method signature="verify_Registering_By_Invalid_Email(java.lang.String,java.lang.String)[pri:8, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:09 IST" name="verify_Registering_By_Invalid_Email" data-provider="getData" finished-at="2023-02-21T15:45:11 IST" duration-ms="2166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -818,15 +876,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Invalid_Email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:43 IST" name="tearDown" finished-at="2023-02-20T11:56:43 IST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:11 IST" name="tearDown" finished-at="2023-02-21T15:45:12 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:43 IST" name="initilization" finished-at="2023-02-20T11:56:49 IST" duration-ms="5240" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:12 IST" name="initilization" finished-at="2023-02-21T15:45:17 IST" duration-ms="5103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Invalid_Phone(java.lang.String)[pri:9, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:49 IST" name="verify_Registering_By_Invalid_Phone" data-provider="getTelephoneData" finished-at="2023-02-20T11:56:52 IST" duration-ms="3306" status="FAIL">
+        <test-method signature="verify_Registering_By_Invalid_Phone(java.lang.String)[pri:9, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:17 IST" name="verify_Registering_By_Invalid_Phone" data-provider="getTelephoneData" finished-at="2023-02-21T15:45:20 IST" duration-ms="2954" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -883,15 +941,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Invalid_Phone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:52 IST" name="tearDown" finished-at="2023-02-20T11:56:52 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:20 IST" name="tearDown" finished-at="2023-02-21T15:45:20 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:52 IST" name="initilization" finished-at="2023-02-20T11:56:58 IST" duration-ms="5098" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:20 IST" name="initilization" finished-at="2023-02-21T15:45:26 IST" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_By_Invalid_Phone(java.lang.String)[pri:9, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:56:58 IST" name="verify_Registering_By_Invalid_Phone" data-provider="getTelephoneData" finished-at="2023-02-20T11:57:00 IST" duration-ms="2481" status="FAIL">
+        <test-method signature="verify_Registering_By_Invalid_Phone(java.lang.String)[pri:9, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:26 IST" name="verify_Registering_By_Invalid_Phone" data-provider="getTelephoneData" finished-at="2023-02-21T15:45:28 IST" duration-ms="2390" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -948,15 +1006,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_By_Invalid_Phone -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:00 IST" name="tearDown" finished-at="2023-02-20T11:57:00 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:28 IST" name="tearDown" finished-at="2023-02-21T15:45:28 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:00 IST" name="initilization" finished-at="2023-02-20T11:57:06 IST" duration-ms="5156" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:28 IST" name="initilization" finished-at="2023-02-21T15:45:35 IST" duration-ms="6315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_With_Space_Field()[pri:10, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:06 IST" name="verify_Registering_With_Space_Field" finished-at="2023-02-20T11:57:09 IST" duration-ms="3006" status="FAIL">
+        <test-method signature="verify_Registering_With_Space_Field()[pri:10, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:35 IST" name="verify_Registering_With_Space_Field" finished-at="2023-02-21T15:45:37 IST" duration-ms="2355" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Telephone must be between 3 and 32 characters!] but found [Password]]]>
@@ -1008,15 +1066,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_With_Space_Field -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:09 IST" name="tearDown" finished-at="2023-02-20T11:57:09 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:37 IST" name="tearDown" finished-at="2023-02-21T15:45:38 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:09 IST" name="initilization" finished-at="2023-02-20T11:57:14 IST" duration-ms="5281" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:38 IST" name="initilization" finished-at="2023-02-21T15:45:43 IST" duration-ms="5377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_Complexity_Password()[pri:11, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:14 IST" name="verify_Registering_Complexity_Password" finished-at="2023-02-20T11:57:27 IST" duration-ms="12496" status="FAIL">
+        <test-method signature="verify_Registering_Complexity_Password()[pri:11, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:43 IST" name="verify_Registering_Complexity_Password" finished-at="2023-02-21T15:45:55 IST" duration-ms="12466" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-password']/following::div[1]"}
@@ -1025,9 +1083,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b24d98a25becc6b0937e1e64ce55d494]]>
+Command: [60ef91223fa0f28abb3718ed334f8e20, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56041}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56041/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ef91223fa0f28abb3718ed334f8e20]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-password']/following::div[1]"}
@@ -1036,9 +1094,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b24d98a25becc6b0937e1e64ce55d494
+Command: [60ef91223fa0f28abb3718ed334f8e20, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56041}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56041/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ef91223fa0f28abb3718ed334f8e20
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1057,7 +1115,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
 at com.tutorialsninja.qa.pageObjects.RegisterPageObjects.password_actual_WarningMessage(RegisterPageObjects.java:88)
 at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:247)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1098,15 +1156,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_Complexity_Password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:27 IST" name="tearDown" finished-at="2023-02-20T11:57:27 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:56 IST" name="tearDown" finished-at="2023-02-21T15:45:56 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:27 IST" name="initilization" finished-at="2023-02-20T11:57:34 IST" duration-ms="6863" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:45:56 IST" name="initilization" finished-at="2023-02-21T15:46:01 IST" duration-ms="5059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_Spaces_Trimmed()[pri:12, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:34 IST" name="verify_Registering_Spaces_Trimmed" finished-at="2023-02-20T11:57:37 IST" duration-ms="3348" status="FAIL">
+        <test-method signature="verify_Registering_Spaces_Trimmed()[pri:12, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:01 IST" name="verify_Registering_Spaces_Trimmed" finished-at="2023-02-21T15:46:04 IST" duration-ms="3437" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect [    test    ] but found [    test    ]]]>
@@ -1157,43 +1215,43 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_Spaces_Trimmed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:38 IST" name="tearDown" finished-at="2023-02-20T11:57:38 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:05 IST" name="tearDown" finished-at="2023-02-21T15:46:05 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:38 IST" name="initilization" finished-at="2023-02-20T11:57:43 IST" duration-ms="4850" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:05 IST" name="initilization" finished-at="2023-02-21T15:46:10 IST" duration-ms="5500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_PrivacyPolicy_isSelected()[pri:13, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:43 IST" name="verify_Registering_PrivacyPolicy_isSelected" finished-at="2023-02-20T11:57:44 IST" duration-ms="1264" status="PASS">
+        <test-method signature="verify_Registering_PrivacyPolicy_isSelected()[pri:13, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:10 IST" name="verify_Registering_PrivacyPolicy_isSelected" finished-at="2023-02-21T15:46:11 IST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_PrivacyPolicy_isSelected -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:44 IST" name="tearDown" finished-at="2023-02-20T11:57:44 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:11 IST" name="tearDown" finished-at="2023-02-21T15:46:12 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:44 IST" name="initilization" finished-at="2023-02-20T11:57:51 IST" duration-ms="6922" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:12 IST" name="initilization" finished-at="2023-02-21T15:46:17 IST" duration-ms="5004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_PrivacyPolicy_Without_Selecting()[pri:14, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:51 IST" name="verify_Registering_PrivacyPolicy_Without_Selecting" finished-at="2023-02-20T11:57:54 IST" duration-ms="2560" status="PASS">
+        <test-method signature="verify_Registering_PrivacyPolicy_Without_Selecting()[pri:14, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:17 IST" name="verify_Registering_PrivacyPolicy_Without_Selecting" finished-at="2023-02-21T15:46:20 IST" duration-ms="3276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_PrivacyPolicy_Without_Selecting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:54 IST" name="tearDown" finished-at="2023-02-20T11:57:54 IST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:20 IST" name="tearDown" finished-at="2023-02-21T15:46:20 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:54 IST" name="initilization" finished-at="2023-02-20T11:57:59 IST" duration-ms="5197" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:20 IST" name="initilization" finished-at="2023-02-21T15:46:25 IST" duration-ms="5202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="verify_Registering_enterPassword_WithoutConfirmPassword()[pri:15, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:57:59 IST" name="verify_Registering_enterPassword_WithoutConfirmPassword" finished-at="2023-02-20T11:58:02 IST" duration-ms="3155" status="PASS">
+        <test-method signature="verify_Registering_enterPassword_WithoutConfirmPassword()[pri:15, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:25 IST" name="verify_Registering_enterPassword_WithoutConfirmPassword" finished-at="2023-02-21T15:46:28 IST" duration-ms="2834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Registering_enterPassword_WithoutConfirmPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@6356695f]" started-at="2023-02-20T11:58:02 IST" name="tearDown" finished-at="2023-02-20T11:58:03 IST" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testCases.TestRegister@4ec4f3a0]" started-at="2023-02-21T15:46:28 IST" name="tearDown" finished-at="2023-02-21T15:46:28 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -30,7 +30,7 @@ public class TestForgetPassword extends conftest {
 	PasswordPageObjects changePassword;
 	RegisterPageObjects registerPage;
 	ForgetPasswordPageObjects forgetPassword;
-	Map<String, String> gmailInfo = GMailQuickstart.getEmailInfo("Reset password");
+	Map<String, String> gmailInfo = GMailQuickstart.getEmailInfo("Restore password");
 
 	@BeforeMethod(alwaysRun = true)
 	public void initlization() {
@@ -57,7 +57,7 @@ public class TestForgetPassword extends conftest {
 				loginPage.email_confirmation_forgetPass_Expected_ConfirmationMessage());
 
 		String link = "";
-		if (GMailQuickstart.isMailExist("Reset password")) {
+		if (GMailQuickstart.isMailExist("Restore password")) {
 			link = gmailInfo.get("body");
 			System.out.println(link);
 		} else {

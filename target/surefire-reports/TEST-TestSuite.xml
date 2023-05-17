@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="468.458" tests="50" errors="0" skipped="0" failures="10">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="470.594" tests="51" errors="0" skipped="0" failures="11">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\test-classes;C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\classes;C:\Users\Mahi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Mahi\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Mahi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahi\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Mahi\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Mahi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Mahi\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Mahi\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Mahi\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Mahi\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mahi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mahi\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahi\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mahi\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Mahi\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Mahi\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Mahi\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Mahi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Mahi\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.class.path" value="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\test-classes;C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\classes;C:\Users\Mahi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Mahi\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Mahi\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Mahi\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Mahi\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mahi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mahi\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahi\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mahi\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Mahi\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Mahi\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Mahi\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Mahi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Mahi\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Mahi\.m2\repository\com\google\api-client\google-api-client\2.0.0\google-api-client-2.0.0.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client\1.34.1\google-oauth-client-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client-gson\1.42.1\google-http-client-gson-1.42.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Mahi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahi\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Mahi\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Mahi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.42.1\google-http-client-apache-v2-1.42.1.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client\1.42.1\google-http-client-1.42.1.jar;C:\Users\Mahi\.m2\repository\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\Mahi\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\Mahi\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.34.1\google-oauth-client-jetty-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.34.1\google-oauth-client-java6-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\apis\google-api-services-gmail\v1-rev20220404-2.0.0\google-api-services-gmail-v1-rev20220404-2.0.0.jar;C:\Users\Mahi\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\Mahi\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Mahi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Mahi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\Mahi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Mahi\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Mahi\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\Mahi\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Mahi\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\Mahi\AppData\Local\Temp\surefire17914812373514726536\surefirebooter-20230220115457641_3.jar C:\Users\Mahi\AppData\Local\Temp\surefire17914812373514726536 2023-02-20T11-54-56_423-jvmRun1 surefire-20230220115457641_1tmp surefire_0-20230220115457641_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Mahi\AppData\Local\Temp\surefire11681653146572590045\surefirebooter-20230221154331397_3.jar C:\Users\Mahi\AppData\Local\Temp\surefire11681653146572590045 2023-02-21T15-43-30_341-jvmRun1 surefire-20230221154331397_1tmp surefire_0-20230221154331397_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\test-classes;C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\classes;C:\Users\Mahi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Mahi\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Mahi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahi\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Mahi\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Mahi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Mahi\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Mahi\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Mahi\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Mahi\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mahi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mahi\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahi\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mahi\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Mahi\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Mahi\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Mahi\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Mahi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Mahi\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\test-classes;C:\Users\Mahi\eclipse-workspace\TestNG\TutorialsNinja\target\classes;C:\Users\Mahi\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahi\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Mahi\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Mahi\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Mahi\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Mahi\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Mahi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Mahi\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Mahi\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Mahi\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mahi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mahi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mahi\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mahi\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahi\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mahi\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Mahi\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Mahi\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Mahi\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Mahi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Mahi\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Mahi\.m2\repository\com\google\api-client\google-api-client\2.0.0\google-api-client-2.0.0.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client\1.34.1\google-oauth-client-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client-gson\1.42.1\google-http-client-gson-1.42.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Mahi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahi\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Mahi\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Mahi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.42.1\google-http-client-apache-v2-1.42.1.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahi\.m2\repository\com\google\http-client\google-http-client\1.42.1\google-http-client-1.42.1.jar;C:\Users\Mahi\.m2\repository\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\Mahi\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\Mahi\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.34.1\google-oauth-client-jetty-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.34.1\google-oauth-client-java6-1.34.1.jar;C:\Users\Mahi\.m2\repository\com\google\apis\google-api-services-gmail\v1-rev20220404-2.0.0\google-api-services-gmail-v1-rev20220404-2.0.0.jar;C:\Users\Mahi\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\Mahi\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\Mahi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Mahi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Mahi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\Mahi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Mahi\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Mahi\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\Mahi\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Mahi\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Mahi\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\Mahi\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Mahi"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Mahi\AppData\Local\Temp\surefire17914812373514726536\surefirebooter-20230220115457641_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mahi\AppData\Local\Temp\surefire11681653146572590045\surefirebooter-20230221154331397_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -58,24 +58,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verify_Registering_Mandatory_Field" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.054">
+  <testcase name="verify_Registering_Mandatory_Field" classname="com.tutorialsninja.qa.testCases.TestRegister" time="4.529">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 46155
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 33254
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874305.496][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974427.308][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:43:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_BY_Providing_All_Fileds" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.075">
-    <system-err><![CDATA[Feb 20, 2023 11:55:16 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_BY_Providing_All_Fileds" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.964">
+    <system-err><![CDATA[Feb 21, 2023 3:43:56 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -93,34 +93,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 29115
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 5984
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874319.769][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974440.704][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.02">
-    <system-err><![CDATA[[1676874325.294][SEVERE]: Unable to receive message from renderer
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 36837
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1676874328.830][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
-]]></system-err>
-  </testcase>
-  <testcase name="verify_Registering_Newsletter_NO" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.231">
-    <system-err><![CDATA[Feb 20, 2023 11:55:33 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Notification_BY_NotProviding_All_Fileds_BySubmiting" classname="com.tutorialsninja.qa.testCases.TestRegister" time="1.716">
+    <system-err><![CDATA[Feb 21, 2023 3:44:06 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -138,20 +124,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 36089
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 15192
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874336.801][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974450.263][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_Newsletter_YES" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.987">
-    <system-err><![CDATA[Feb 20, 2023 11:55:42 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_Newsletter_NO" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.681">
+    <system-err><![CDATA[Feb 21, 2023 3:44:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -169,20 +155,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 32718
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 17616
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874346.007][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974457.806][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Different_Pass_con_pass" classname="com.tutorialsninja.qa.testCases.TestRegister" time="4.705">
-    <system-err><![CDATA[Feb 20, 2023 11:55:53 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_Newsletter_YES" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.93">
+    <system-err><![CDATA[Feb 21, 2023 3:44:22 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -200,20 +186,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 25449
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 28531
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874357.405][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:55:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974465.760][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Existing_Account" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.987">
-    <system-err><![CDATA[Feb 20, 2023 11:56:04 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_By_Different_Pass_con_pass" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.915">
+    <system-err><![CDATA[Feb 21, 2023 3:44:30 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -231,20 +217,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47485
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 34305
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874367.593][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974474.188][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Invalid_Email[test, 12345](1)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.8">
-    <system-err><![CDATA[Feb 20, 2023 11:56:13 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_By_Existing_Account" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.622">
+    <system-err><![CDATA[Feb 21, 2023 3:44:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -262,20 +248,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 10866
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 4848
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874378.412][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974482.620][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Invalid_Email[test@, 12345](2)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.31">
-    <system-err><![CDATA[Feb 20, 2023 11:56:25 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_By_Invalid_Email[test, 12345](1)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.124">
+    <system-err><![CDATA[Feb 21, 2023 3:44:46 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -293,20 +279,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 16603
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 29110
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874389.277][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974491.600][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Invalid_Email[test@gmail., 12345](3)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.386">
-    <system-err><![CDATA[Feb 20, 2023 11:56:35 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_By_Invalid_Email[test@, 12345](2)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.934">
+    <system-err><![CDATA[Feb 21, 2023 3:44:55 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -324,19 +310,50 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 15814
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 26368
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874398.516][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974499.475][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:44:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Invalid_Phone[111](1)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.5">
+  <testcase name="verify_Registering_By_Invalid_Email[test@gmail., 12345](3)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.166">
+    <system-err><![CDATA[Feb 21, 2023 3:45:04 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7459
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1676974508.039][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verify_Registering_By_Invalid_Phone[111](1)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.23">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -376,7 +393,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:56:43 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:45:12 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -394,19 +411,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 38853
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 48222
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874407.540][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974515.596][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_By_Invalid_Phone[abcde](2)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.666">
+  <testcase name="verify_Registering_By_Invalid_Phone[abcde](2)" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.574">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -446,7 +463,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:56:52 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:45:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -464,19 +481,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 27051
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 42951
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874416.378][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:56:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974524.388][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_With_Space_Field" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.167">
+  <testcase name="verify_Registering_With_Space_Field" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.502">
     <failure message="expected [Telephone must be between 3 and 32 characters!] but found [Password]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Telephone must be between 3 and 32 characters!] but found [Password]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -518,7 +535,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:57:00 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:45:28 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -536,29 +553,29 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7372
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 14682
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874424.486][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974532.391][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_Complexity_Password" classname="com.tutorialsninja.qa.testCases.TestRegister" time="12.644">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-password&apos;]/following::div[1]&quot;}&#10;  (Session info: MicrosoftEdge=110.0.1587.50)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b24d98a25becc6b0937e1e64ce55d494" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="verify_Registering_Complexity_Password" classname="com.tutorialsninja.qa.testCases.TestRegister" time="12.61">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;input-password&apos;]/following::div[1]&quot;}&#10;  (Session info: MicrosoftEdge=110.0.1587.50)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [60ef91223fa0f28abb3718ed334f8e20, findElement {using=xpath, value=//input[@id=&apos;input-password&apos;]/following::div[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56041}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56041/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 60ef91223fa0f28abb3718ed334f8e20" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-password']/following::div[1]"}
   (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b24d98a25becc6b0937e1e64ce55d494, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51102}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b24d98a25becc6b0937e1e64ce55d494
+Command: [60ef91223fa0f28abb3718ed334f8e20, findElement {using=xpath, value=//input[@id='input-password']/following::div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56041}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56041/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ef91223fa0f28abb3718ed334f8e20
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -577,7 +594,7 @@ Session ID: b24d98a25becc6b0937e1e64ce55d494
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
 	at com.tutorialsninja.qa.pageObjects.RegisterPageObjects.password_actual_WarningMessage(RegisterPageObjects.java:88)
 	at com.tutorialsninja.qa.testCases.TestRegister.verify_Registering_Complexity_Password(TestRegister.java:247)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -613,7 +630,7 @@ Session ID: b24d98a25becc6b0937e1e64ce55d494
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:57:09 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:45:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -631,19 +648,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 10953
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 2301
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874432.916][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974541.731][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_Spaces_Trimmed" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.511">
+  <testcase name="verify_Registering_Spaces_Trimmed" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.62">
     <failure message="did not expect [    test    ] but found [    test    ]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: did not expect [    test    ] but found [    test    ]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failEquals(Assert.java:1417)
@@ -684,7 +701,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:57:27 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:45:56 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -702,20 +719,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 41171
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 11412
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874451.066][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974559.687][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:45:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_PrivacyPolicy_isSelected" classname="com.tutorialsninja.qa.testCases.TestRegister" time="1.265">
-    <system-err><![CDATA[Feb 20, 2023 11:57:38 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_PrivacyPolicy_isSelected" classname="com.tutorialsninja.qa.testCases.TestRegister" time="1.019">
+    <system-err><![CDATA[Feb 21, 2023 3:46:05 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -733,20 +750,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 3929
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 38857
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874461.211][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974568.998][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_PrivacyPolicy_Without_Selecting" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.557">
-    <system-err><![CDATA[Feb 20, 2023 11:57:44 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_PrivacyPolicy_Without_Selecting" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.277">
+    <system-err><![CDATA[Feb 21, 2023 3:46:12 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -764,20 +781,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47447
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 2130
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874468.033][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974575.507][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Registering_enterPassword_WithoutConfirmPassword" classname="com.tutorialsninja.qa.testCases.TestRegister" time="3.155">
-    <system-err><![CDATA[Feb 20, 2023 11:57:54 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Registering_enterPassword_WithoutConfirmPassword" classname="com.tutorialsninja.qa.testCases.TestRegister" time="2.834">
+    <system-err><![CDATA[Feb 21, 2023 3:46:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -795,20 +812,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 14286
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 25161
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874477.713][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:57:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974584.016][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_With_Valid_Credential" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.088">
-    <system-err><![CDATA[Feb 20, 2023 11:58:03 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_With_Valid_Credential" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.757">
+    <system-err><![CDATA[Feb 21, 2023 3:46:28 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -826,20 +843,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 26430
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 10787
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874486.676][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974592.380][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_With_InValid_Credential" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.735">
-    <system-err><![CDATA[Feb 20, 2023 11:58:10 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_With_InValid_Credential" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.754">
+    <system-err><![CDATA[Feb 21, 2023 3:46:36 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -857,34 +874,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 29244
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 30279
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874494.284][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974599.620][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_With_Valid_password_invalid_userName" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.762">
-    <system-err><![CDATA[[1676874503.960][SEVERE]: Unable to receive message from renderer
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47856
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1676874507.354][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
-]]></system-err>
-  </testcase>
-  <testcase name="verify_login_With_Valid_userName_invalid_password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.77">
-    <system-err><![CDATA[Feb 20, 2023 11:58:30 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_With_Valid_password_invalid_userName" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.616">
+    <system-err><![CDATA[Feb 21, 2023 3:46:43 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -902,20 +905,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 34244
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 42090
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874514.460][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974606.872][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_Without_Credentials" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.521">
-    <system-err><![CDATA[Feb 20, 2023 11:58:38 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_With_Valid_userName_invalid_password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.344">
+    <system-err><![CDATA[Feb 21, 2023 3:46:50 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -933,20 +936,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 35763
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 2369
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874521.679][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974614.023][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:46:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_Forgetten_Password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.229">
-    <system-err><![CDATA[Feb 20, 2023 11:58:45 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_Without_Credentials" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.038">
+    <system-err><![CDATA[Feb 21, 2023 3:46:58 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -964,29 +967,60 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7185
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 16796
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874528.430][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974621.704][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_With_Valid_Credential_BrowserBack" classname="com.tutorialsninja.qa.testCases.TestLogin" time="12.1">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;well&apos;])[2]/h2&quot;}&#10;  (Session info: MicrosoftEdge=110.0.1587.50)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 84035b78aa2951069176783dab933dc3" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="verify_login_Forgetten_Password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.782">
+    <system-err><![CDATA[Feb 21, 2023 3:47:05 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 18141
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1676974629.166][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verify_login_With_Valid_Credential_BrowserBack" classname="com.tutorialsninja.qa.testCases.TestLogin" time="12.463">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;well&apos;])[2]/h2&quot;}&#10;  (Session info: MicrosoftEdge=110.0.1587.50)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [d175c4017c2b30d2c61e9e505bb7f152, findElement {using=xpath, value=(//div[@class=&apos;well&apos;])[2]/h2}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56590}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d175c4017c2b30d2c61e9e505bb7f152" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='well'])[2]/h2"}
   (Session info: MicrosoftEdge=110.0.1587.50)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [84035b78aa2951069176783dab933dc3, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 84035b78aa2951069176783dab933dc3
+Command: [d175c4017c2b30d2c61e9e505bb7f152, findElement {using=xpath, value=(//div[@class='well'])[2]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:56590}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\Mahi\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56590/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d175c4017c2b30d2c61e9e505bb7f152
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1005,7 +1039,7 @@ Session ID: 84035b78aa2951069176783dab933dc3
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
 	at com.tutorialsninja.qa.pageObjects.LoginPageObjects.returningCustomer_actual_text(LoginPageObjects.java:105)
 	at com.tutorialsninja.qa.testCases.TestLogin.verify_login_With_Valid_Credential_BrowserBack(TestLogin.java:114)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1041,7 +1075,7 @@ Session ID: 84035b78aa2951069176783dab933dc3
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:58:51 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:47:12 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1059,19 +1093,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 10335
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 36728
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874534.961][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:58:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974636.375][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_afterLogin_browserBack" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.745">
+  <testcase name="verify_login_afterLogin_browserBack" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.623">
     <failure message="Account Logout expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Account Logout expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -1110,7 +1144,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 11:59:08 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:47:30 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1128,20 +1162,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 2383
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 41865
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874552.299][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974654.237][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.596">
-    <system-err><![CDATA[Feb 20, 2023 11:59:16 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.827">
+    <system-err><![CDATA[Feb 21, 2023 3:47:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1159,20 +1193,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 11032
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 31947
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874560.215][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974662.432][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.698">
-    <system-err><![CDATA[Feb 20, 2023 11:59:25 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.619">
+    <system-err><![CDATA[Feb 21, 2023 3:47:47 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1190,20 +1224,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 13048
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 16128
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874568.568][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974671.164][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.632">
-    <system-err><![CDATA[Feb 20, 2023 11:59:32 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.307">
+    <system-err><![CDATA[Feb 21, 2023 3:47:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1221,20 +1255,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 3954
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 41266
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874575.804][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974677.939][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:47:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.634">
-    <system-err><![CDATA[Feb 20, 2023 11:59:39 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.442">
+    <system-err><![CDATA[Feb 21, 2023 3:48:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1252,20 +1286,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 32400
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 28879
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874582.912][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974685.835][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.548">
-    <system-err><![CDATA[Feb 20, 2023 11:59:46 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.627">
+    <system-err><![CDATA[Feb 21, 2023 3:48:10 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1283,20 +1317,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 44252
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 13109
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874589.925][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974693.915][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.702">
-    <system-err><![CDATA[Feb 20, 2023 11:59:53 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.655">
+    <system-err><![CDATA[Feb 21, 2023 3:48:17 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1314,20 +1348,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47625
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 28550
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874596.796][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 11:59:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974700.942][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.102">
-    <system-err><![CDATA[Feb 20, 2023 12:00:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.643">
+    <system-err><![CDATA[Feb 21, 2023 3:48:24 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1345,20 +1379,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 5321
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 12508
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874603.774][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974707.813][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.714">
-    <system-err><![CDATA[Feb 20, 2023 12:00:08 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.527">
+    <system-err><![CDATA[Feb 21, 2023 3:48:31 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1376,20 +1410,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47867
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 48794
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874611.641][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974714.750][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.672">
-    <system-err><![CDATA[Feb 20, 2023 12:00:16 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.542">
+    <system-err><![CDATA[Feb 21, 2023 3:48:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1407,20 +1441,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 21241
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 48060
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874620.348][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974722.222][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.604">
-    <system-err><![CDATA[Feb 20, 2023 12:00:23 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_MultipleTime_Unsuccessful_attempt" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.555">
+    <system-err><![CDATA[Feb 21, 2023 3:48:47 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1438,20 +1472,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 28097
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7583
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874627.183][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974730.763][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_Copying_TEXT_PasswordFiled" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.296">
-    <system-err><![CDATA[Feb 20, 2023 12:00:30 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_Copying_TEXT_PasswordFiled" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.417">
+    <system-err><![CDATA[Feb 21, 2023 3:48:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1469,19 +1503,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 45078
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 1546
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874634.155][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974737.545][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:48:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_Code_In_SourceCode_PasswordFiled" classname="com.tutorialsninja.qa.testCases.TestLogin" time="1.872">
+  <testcase name="verify_login_Code_In_SourceCode_PasswordFiled" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.941">
     <failure message="did not expect [xyzabc123   ] but found [xyzabc123   ]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: did not expect [xyzabc123   ] but found [xyzabc123   ]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failEquals(Assert.java:1417)
@@ -1522,7 +1556,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 12:00:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:49:00 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1540,20 +1574,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 48018
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 17853
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874641.327][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974744.258][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_after_Changing_Password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="5.133">
-    <system-err><![CDATA[Feb 20, 2023 12:00:45 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_after_Changing_Password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="5.61">
+    <system-err><![CDATA[Feb 21, 2023 3:49:09 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1571,20 +1605,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 16796
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7608
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874648.613][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974752.682][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_able_to_navigate_to_otherPages" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.044">
-    <system-err><![CDATA[Feb 20, 2023 12:00:55 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_able_to_navigate_to_otherPages" classname="com.tutorialsninja.qa.testCases.TestLogin" time="2.13">
+    <system-err><![CDATA[Feb 21, 2023 3:49:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1602,20 +1636,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 20649
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 29069
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874658.732][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:00:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974764.183][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_login_after_Changing_Password_and_Changing_toOriginal_password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="5.482">
-    <system-err><![CDATA[Feb 20, 2023 12:01:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_login_after_Changing_Password_and_Changing_toOriginal_password" classname="com.tutorialsninja.qa.testCases.TestLogin" time="5.291">
+    <system-err><![CDATA[Feb 21, 2023 3:49:28 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1633,20 +1667,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 3578
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 33290
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874666.216][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974771.682][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" classname="com.tutorialsninja.qa.testCases.TestLogout" time="1.897">
-    <system-err><![CDATA[Feb 20, 2023 12:01:13 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Logout_By_LoggingOut_From_MyAccount_Dropdown" classname="com.tutorialsninja.qa.testCases.TestLogout" time="2.675">
+    <system-err><![CDATA[Feb 21, 2023 3:49:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1664,20 +1698,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 20021
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 31256
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874677.097][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974782.427][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage" classname="com.tutorialsninja.qa.testCases.TestLogout" time="1.779">
-    <system-err><![CDATA[Feb 20, 2023 12:01:21 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Logout_By_LoggingOut_From_LogoutOption_OnPage" classname="com.tutorialsninja.qa.testCases.TestLogout" time="2.083">
+    <system-err><![CDATA[Feb 21, 2023 3:49:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1695,19 +1729,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 21974
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 36989
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874685.282][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974791.349][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_By_LoggingOut_And_BrowsingBack" classname="com.tutorialsninja.qa.testCases.TestLogout" time="1.755">
+  <testcase name="verify_Logout_By_LoggingOut_And_BrowsingBack" classname="com.tutorialsninja.qa.testCases.TestLogout" time="1.657">
     <failure message="expected [Account Logout] but found [My Account]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Account Logout] but found [My Account]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -1749,7 +1783,7 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 12:01:29 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Feb 21, 2023 3:49:56 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1767,20 +1801,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7812
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 10607
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874693.355][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974799.493][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:49:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown" classname="com.tutorialsninja.qa.testCases.TestLogout" time="10.254">
-    <system-err><![CDATA[Feb 20, 2023 12:01:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Logout_Option_NotDisplayed_BeforeLogin_Account_Drodown" classname="com.tutorialsninja.qa.testCases.TestLogout" time="10.174">
+    <system-err><![CDATA[Feb 21, 2023 3:50:04 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1798,20 +1832,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 18478
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 15147
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874700.661][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974807.160][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:50:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column" classname="com.tutorialsninja.qa.testCases.TestLogout" time="10.034">
-    <system-err><![CDATA[Feb 20, 2023 12:01:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Logout_Option_NotDisplayed_BeforeLogin_UnderRight_Column" classname="com.tutorialsninja.qa.testCases.TestLogout" time="10.037">
+    <system-err><![CDATA[Feb 21, 2023 3:50:20 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1829,20 +1863,20 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 7847
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 47823
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874716.772][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:01:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974823.575][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount" classname="com.tutorialsninja.qa.testCases.TestLogout" time="2.573">
-    <system-err><![CDATA[Feb 20, 2023 12:02:10 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="verify_Logout_AfterLogout_FromOneAccount_AnotherAccount" classname="com.tutorialsninja.qa.testCases.TestLogout" time="2.733">
+    <system-err><![CDATA[Feb 21, 2023 3:50:36 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1860,86 +1894,25 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 18085
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 26413
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874733.147][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:02:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974840.251][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:50:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
-  <testcase name="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="2.131">
-    <system-err><![CDATA[Feb 20, 2023 12:02:18 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 4053
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1676874741.876][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:02:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
-]]></system-err>
-  </testcase>
-  <testcase name="verify_forgetPassword_With_nonRegistered_Account" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="1.23">
-    <system-err><![CDATA[Feb 20, 2023 12:02:26 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 31515
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-Microsoft Edge WebDriver was started successfully.
-[1676874750.274][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:02:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
-]]></system-err>
-  </testcase>
-  <testcase name="verify_forgetPassword_Without_providing_EmailAddress" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="1.048">
-    <failure message="E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: E-Mail must be between 4 and 20 characters!' should be displayed for 'E-Mail Address' field expected [true] but found [false]
+  <testcase name="verify_forgetPassword_User_able_to_restore_password" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="2.252">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:69)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_User_able_to_restore_password(TestForgetPassword.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1973,7 +1946,10 @@ WARNING: Unable to find an exact match for CDP version 110, so returning the clo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-err><![CDATA[Feb 20, 2023 12:02:34 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-out><![CDATA[http://tutorialsninja.com/demo/index.php?route=account/password
+
+]]></system-out>
+    <system-err><![CDATA[Feb 21, 2023 3:50:46 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -1991,15 +1967,146 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 40206
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 44190
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1676874757.220][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 20, 2023 12:02:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1676974849.580][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:50:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verify_forgetPassword_Withoutout_reset_but_IntitiateProcess" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="3.173">
+    <system-err><![CDATA[Feb 21, 2023 3:50:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 33335
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1676974857.968][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:50:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verify_forgetPassword_With_nonRegistered_Account" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="1.33">
+    <system-err><![CDATA[Feb 21, 2023 3:51:04 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 20569
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1676974867.657][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:51:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
+]]></system-err>
+  </testcase>
+  <testcase name="verify_forgetPassword_Without_providing_EmailAddress" classname="com.tutorialsninja.qa.testCases.TestForgetPassword" time="1.02">
+    <failure message="E-Mail must be between 4 and 20 characters!&apos; should be displayed for &apos;E-Mail Address&apos; field expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: E-Mail must be between 4 and 20 characters!' should be displayed for 'E-Mail Address' field expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.tutorialsninja.qa.testCases.TestForgetPassword.verify_forgetPassword_Without_providing_EmailAddress(TestForgetPassword.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Feb 21, 2023 3:51:11 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting Microsoft Edge WebDriver 110.0.1587.50 (05bf83b2e806ffb3a92b68f835d6bee390b3797e) on port 41823
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1676974875.273][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 21, 2023 3:51:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 107
 ]]></system-err>
   </testcase>
